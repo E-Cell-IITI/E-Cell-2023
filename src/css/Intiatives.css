@@ -29,21 +29,7 @@
     box-sizing: border-box;
   }
   
-  body {
-    position: relative;
-width: 1440px;
-height: 2738px;
 
-/* background: linear-gradient(180deg, #1B262C 0%, rgba(27, 38, 44, 0) 173.98%); */
-    /* display: grid;
-    min-height: 100vh;
-    place-items: center;
-    line-height: 1.6;
-    background: var(--clr-neutral-900);
-    font-family: sans-serif;
-    padding-right: 15em; */
-  }
-  
   .card {
     color: var(--clr-neutral-100);
     background-image: url("/src/images/0x0.webp");
