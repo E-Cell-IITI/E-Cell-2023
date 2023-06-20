@@ -52,7 +52,7 @@ span{
     transform: scale(1.5);
 }
 .swiper-pagination-bullet-active{
-    background-color: #2a87c6    ;
+    background-color: #2a87c6;
 }
 .swiper-wrapper{
     margin-bottom: 0;

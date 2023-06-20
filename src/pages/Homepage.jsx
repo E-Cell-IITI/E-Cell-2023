@@ -14,9 +14,11 @@ import NavbarData from "../data/Navabr.json"
 import AboutData from "../data/About.json"
 import EventsData from "../Events.json"
 import BlogsData from '../data/Blogs.json';
-
+import Gallery2 from './Gallery2';
+import galleryImages from '../data/Gallery2';
 
 export default function Homepage(){
+    
     return(
         <>
         <Navbar {...NavbarData}/>
@@ -25,6 +27,8 @@ export default function Homepage(){
         <Initiatives/>
         <Events {...EventsData}/>
         <Gallery/>
+        <Gallery2
+        galleryImages={galleryImages}/>
         <Blogs {...BlogsData} />
         </>
     )
