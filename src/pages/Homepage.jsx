@@ -24,12 +24,12 @@ export default function Homepage(){
         <Navbar {...NavbarData}/>
         <Banner {...BannerData}/>
         <About {...AboutData}/>
-        <Initiatives/>
+        {/* <Initiatives/> */}
         <Events {...EventsData}/>
-        <Gallery/>
-        <Gallery2
-        galleryImages={galleryImages}/>
-        <Blogs {...BlogsData} />
+        {/* <Gallery/> */}
+        {/* <Gallery2
+        galleryImages={galleryImages}/> */}
+        {/* <Blogs {...BlogsData} /> */}
         </>
     )
 }

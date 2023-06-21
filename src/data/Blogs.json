@@ -1,35 +1,6 @@
 {
     "blogs":[
-        {
-            "img":"images/mcd.jpg",
-            "heading":"Detangling Mecdonalds",
-            "date":"15 March 2023",
-            "content":"Mc Donald's is probably one of the very first quick service restaurants that have been established in India,and God,they stayed.From ordering..."
-        },
-        {
-            "img":"images/ipl.webp",
-            "heading":"IPL - Case Study",
-            "date":"15 March 2023",
-            "content":"Mc Donald's is probably one of the very first quick service restaurants that have been established in India,and God,they stayed.From ordering..."
-        },
-        {
-            "img":"images/amul.jpg",
-            "heading":"Amul - Case Study",
-            "date":"15 March 2023",
-            "content":"Mc Donald's is probably one of the very first quick service restaurants that have been established in India,and God,they stayed.From ordering..."
-        },
-        {
-            "img":"images/mcd.jpg",
-            "heading":"Detangling Mecdonalds",
-            "date":"15 March 2023",
-            "content":"Mc Donald's is probably one of the very first quick service restaurants that have been established in India,and God,they stayed.From ordering..."
-        },
-        {
-            "img":"images/ipl.webp",
-            "heading":"IPL - Case Study",
-            "date":"15 March 2023",
-            "content":"Mc Donald's is probably one of the very first quick service restaurants that have been established in India,and God,they stayed.From ordering..."
-        },
+        
         {
             "img":"images/amul.jpg",
             "heading":"Amul - Case Study",

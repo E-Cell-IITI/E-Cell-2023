@@ -14,8 +14,8 @@ export default function Blogs(props) {
     <div className='bg-gradient-to-t from-[#0F4F7A] to-[#DDDDDD] py-4'>
     <div className = "flex-col min-h-screen items-center justify-center ">
      <div className='flex items-center justify-center text-center gap-4 text-6xl font-semibold my-16 mb-36 translate-y-[100%] drop-shadow-lg transition-transform duration-500 transform translate-x-0'>
-       <div className='drop-shadow-lg wow animate__animated animate__fadeInLeft'>OUR</div>
-       <div className='text-[#0060A1] wow animate__animated animate__fadeInRight'>BLOGS</div>   
+       <div className='drop-shadow-lg'>OUR</div>
+       <div className='text-[#0060A1]'>BLOGS</div>   
 </div>
   <div className = "flex items-center justify-center">
  
@@ -49,8 +49,8 @@ export default function Blogs(props) {
       }}
     >
         {props.blogs.map((val,e)=>(
-            <SwiperSlide> <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow rounded-3xl wow animate__animated animate__fadeInUp">
-            <div className="h-96 w-full">
+            <SwiperSlide> <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow rounded-3xl">
+            <div className="h-96">
                 <img  className ="h-full w-full object-cover group-hover:rotate-1 group-hover:scale-125 transition-transform duration-500" src={val.img} alt="" />
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
@@ -74,4 +74,5 @@ export default function Blogs(props) {
 </section>
   )
 }
+
 
