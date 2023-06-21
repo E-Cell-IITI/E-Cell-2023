@@ -24,7 +24,7 @@ export default function Homepage(){
         <Navbar {...NavbarData}/>
         <Banner {...BannerData}/>
         <About {...AboutData}/>
-        {/* <Initiatives/> */}
+        <Initiatives/>
         <Events {...EventsData}/>
         {/* <Gallery/> */}
         {/* <Gallery2
