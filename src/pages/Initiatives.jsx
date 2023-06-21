@@ -5,12 +5,12 @@ import data from "../data/Initiatives.json";
 
 export default function Initiatives() {
   return (
-    <div className="Initiatives">
-      <div className="Header">
-        <h1 className="text-blue hover:text-blue inline-block font-montserrat font-bold text-4xl leading-10 transition-transform duration-300 ease-out transform-gpu hover:translate-y-[-2px] hover:text-red">
+    <div className="Initiatives bg-gradient-to-b from-[#144e6e] via-[##1375aa] via-[#0e6fa3] to-[#062f46]">
+      <div className="Header flex items-center justify-center py-16 text-5xl">
+        <h1 className="text-[#3282B8] hover:text-blue inline-block font-montserrat font-semibold leading-10 transition-transform duration-300 ease-out transform-gpu hover:translate-y-[-2px] hover:text-red">
           OUR
         </h1>
-        <h1 className="text-#3282B8 hover:text-blue inline-block font-montserrat font-bold text-4xl leading-10 transition-transform duration-300 ease-out transform-gpu hover:translate-y-[-2px] hover:text-red">
+        <h1 className="text-white hover:text-blue inline-block font-montserrat font-semibold leading-10 transition-transform duration-300 ease-out transform-gpu hover:translate-y-[-2px] hover:text-red">
           INITIATIVES
         </h1>
       </div>
