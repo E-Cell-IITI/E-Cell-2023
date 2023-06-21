@@ -9,6 +9,7 @@ import BlogsPage from "./pages/BlogsPage";
 // import "aos/dist/aos.css" from 'aos'
 import FooterData from "./data/Footer.json";
 import BlogsPage2 from "./pages/BlogsPage2";
+import Gallery from "./pages/Gallery";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           
         </Routes>
       </BrowserRouter>
+      <Gallery />
       <Footer {...FooterData} />
     </>
   );

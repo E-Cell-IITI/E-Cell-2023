@@ -41,8 +41,8 @@ export default function Gallery() {
   {gallery_data[index].disp_data}
   <button className='disp_btn' onClick={hide_info}><FaWindowClose/></button>
 </div>
-        <h1 className="p-16 mt-0 heading wow animate__animated animate__fadeInUpBig">GALLER<span className="">Y</span></h1>
-    <div className='container wow animate__animated animate__fadeInUpBig' >
+        <h1 className="p-16 mt-0 heading ">GALLER<span className="">Y</span></h1>
+    <div className='container ' >
         <Swiper
         effect={'coverflow'}
         grabCursor={true}
