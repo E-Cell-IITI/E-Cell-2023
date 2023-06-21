@@ -142,6 +142,9 @@ span{
     background-color: #292828be;
     color: #f1ecec;
   }
+  .swiper_container{
+    width:100vw;
+}
 
   @media (max-width: 1060px) {
     .info_data{
@@ -161,6 +164,9 @@ span{
     }
     .slider-arrow:hover{
         scale: 0.7;
+    }
+    .swiper_container{
+        width:160vw;
     }
   }
   @media (max-width: 800px) {
@@ -189,6 +195,8 @@ span{
     .slider-arrow:hover{
         scale: 0.5;
     }
+
+    
   }
 
 .gallery_container{
@@ -237,6 +245,6 @@ li{
     color: #d8d4d4;
 }
 
-.swiper_container{
-    width:100vw;
-}
+
+
+
