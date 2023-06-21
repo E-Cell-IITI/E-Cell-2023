@@ -25,6 +25,8 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Gallery />
+      <BlogsPage />
+      <BlogsPage2 />
       <Footer {...FooterData} />
     </>
   );

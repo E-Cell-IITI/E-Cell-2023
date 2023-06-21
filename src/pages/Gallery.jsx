@@ -78,7 +78,7 @@ export default function Gallery() {
                     {auto_play ? setindex(ind) : null}
                     <button onClick={display_info}>Know More...</button>
                   </div> 
-                  <img src={process.env.PUBLIC_URL + info.image_url} alt="images" className='gallery_img active_slide w-full xl:h-[400px] lg:h-[350px] object-cover rounded-3xl' /></> :  <img src={process.env.PUBLIC_URL + info.image_url} alt="images" className='gallery_img w-full xl:h-[400px] lg:h-[300px] object-cover rounded-3xl '/>
+                  <img src={process.env.PUBLIC_URL + info.image_url} alt="images" className='gallery_img active_slide w-full xl:h-[400px] lg:h-[350px] object-cover rounded-3xl h-[250px]' /></> :  <img src={process.env.PUBLIC_URL + info.image_url} alt="images" className='gallery_img w-full xl:h-[400px] lg:h-[300px] object-cover rounded-3xl h-[250px]'/>
                 // <div className='info'>Current slide is {isActive ? 'active' : 'not active'}</div>
               )}
               
