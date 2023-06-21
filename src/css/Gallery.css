@@ -165,9 +165,7 @@ span{
     .slider-arrow:hover{
         scale: 0.7;
     }
-    .swiper_container{
-        width:160vw;
-    }
+    
   }
   @media (max-width: 800px) {
     .info_data{
@@ -196,7 +194,9 @@ span{
         scale: 0.5;
     }
 
-    
+    /* .swiper_container{
+        width:160vw;
+    } */
   }
 
 .gallery_container{
