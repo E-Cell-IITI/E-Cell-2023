@@ -19,7 +19,8 @@ export default function Gallery() {
   const[visible , setvisibility] = useState("box invis");
   const[index ,setindex]=useState(0);
   const [width, setWidth] = React.useState(window.innerWidth);
-  const breakpoint = 1050;
+  const breakpoint1 = 1050;
+  const breakpoint2 = 500;
   function display_info(){
     setautoplay(false);
     setvisibility("box vis");
@@ -48,7 +49,7 @@ export default function Gallery() {
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        slidesPerView={width < breakpoint ? 2: 3}
+        slidesPerView={(width > breakpoint1) ? 3 : (width > breakpoint2) ? 2 : 1}
         coverflowEffect={{
             rotate:0,
             stretch :0,
@@ -78,7 +79,7 @@ export default function Gallery() {
                     {auto_play ? setindex(ind) : null}
                     <button onClick={display_info}>Know More...</button>
                   </div> 
-                  <img src={process.env.PUBLIC_URL + info.image_url} alt="images" className='gallery_img active_slide w-full xl:h-[400px] lg:h-[350px] object-cover rounded-3xl h-[250px]' /></> :  <img src={process.env.PUBLIC_URL + info.image_url} alt="images" className='gallery_img w-full xl:h-[400px] lg:h-[300px] object-cover rounded-3xl h-[250px]'/>
+                  <img src={process.env.PUBLIC_URL + info.image_url} alt="images" className='gallery_img active_slide sm:w-full xl:h-[400px] lg:h-[350px] object-cover rounded-3xl h-[300px]' /></> :  <img src={process.env.PUBLIC_URL + info.image_url} alt="images" className='gallery_img w-full xl:h-[400px] lg:h-[300px] object-cover rounded-3xl h-[300px]'/>
                 // <div className='info'>Current slide is {isActive ? 'active' : 'not active'}</div>
               )}
               

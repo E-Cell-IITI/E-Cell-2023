@@ -65,7 +65,7 @@ span{
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.388);
-    margin: 0 auto;
+    margin :0 auto;
     z-index: 100;
     top: 0;
     transition: ease-out;
@@ -167,6 +167,12 @@ span{
     }
     
   }
+  @media (max-width: 500px) {
+    .info{
+        margin-left: 5vw;
+        width: 90vw;;
+    }
+}
   @media (max-width: 800px) {
     .info_data{
         font-size: 70%;
@@ -245,6 +251,9 @@ li{
     color: #d8d4d4;
 }
 
-
+.active_slide{
+    margin: 0 auto;
+    width: 90vw;
+}
 
 
