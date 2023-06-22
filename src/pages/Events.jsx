@@ -19,13 +19,13 @@ function App(props) {
 
 
     return (
-        <div className="bg-gradient-to-b from-[#00538169] via-[#3282B885] to-[#1B262CCC]">
+        <div>
 
-            <div className="flex flex-col justify-center items-center px-4">
+            <div className="flex flex-col justify-center items-center px-4 pb-28">
                 <h1 className="text-center pt-10 pb-28 text-6xl font-semibold">Recent <span className="text-[#0060a1]">Events</span></h1>
 
                 <div className="flex justify-center items-center w-full lg:px-12">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 px-8 md:px-32 ">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 px-4 md:px-4 ">
                         {props.recent.map((val, ind) => (
                             <div className="group relative items-center justify-center overflow-hidden cursor-pointer rounded-3xl hover:shadow-black/30">
 
@@ -43,7 +43,7 @@ function App(props) {
 
 
                                     <div className="w-full absolute inset-0 flex flex-col items-center justify-center text-center translate-y-[64%] group-hover:translate-y-0 transition-transform ease-in duration-700 group-hover:bg-[#1B2A2C] group-hover:bg-opacity-75">
-                                        <div className="bg-[#1B2A2C] bg-opacity-75 w-full py-4 mb-2 group-hover:bg-opacity-0">
+                                        <div className="bg-[#1B2A2C] bg-opacity-75 w-full group-hover:bg-opacity-0 py-5">
                                             <h1 className="font-dmserif text-3xl font-bold text-white group-hover:mb-4 ">{val.heading}</h1>
                                         </div>
                                         <p className="text-lg italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">{val.content}</p>

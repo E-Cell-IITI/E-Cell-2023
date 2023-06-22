@@ -27,8 +27,8 @@ export default function Homepage(){
         <Initiatives/>
         <Events {...EventsData}/>
         <Gallery/>
-        {/* <Gallery2
-        galleryImages={galleryImages}/> */}
+        <Gallery2
+        galleryImages={galleryImages}/>
         {/* <Blogs {...BlogsData} /> */}
         </>
     )

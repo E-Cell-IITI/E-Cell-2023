@@ -15,7 +15,7 @@ export default function About(props) {
     <section id="about">
     <div
       ref={ref}
-      className={`about w-full h-fit bg-gradient-to-b from-[#84A9BE00] to-[#00538169] py-24 pb-12 ${
+      className={`about w-full h-fit bg-gradient-to-b from-[#84a9be00] to-[#3282b885] py-24 pb-12 ${
         inView ? "aboutSectionVisible" : ""
       }`}
     >
