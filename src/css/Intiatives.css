@@ -52,7 +52,7 @@
   }
   
   .card-content {
-    --padding: 1.5rem;
+    --padding: 1.5rem 0;
     padding: var(--padding);
     background: linear-gradient(
       hsl(0 0% 0% / 0),
@@ -63,7 +63,7 @@
   
   .card-title {
     position: relative;
-    width: max-content;
+    width: 100%;
     color: white;
   }
   
@@ -86,8 +86,12 @@
   
   @media (hover) {
     .card-content {
-      transform: translateY(65%);
+      transform: translateY(42%);
       transition: transform 500ms ease;
+    }
+
+    .card-title{
+      background-color: transparent;
     }
   
     .card-content > *:not(.card-title) {
@@ -117,6 +121,7 @@
   }
   
   .card-body {
+    height: 30vh;
     color: rgb(255, 255, 255/0.85);
     color: white; 
   }

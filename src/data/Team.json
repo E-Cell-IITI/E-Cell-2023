@@ -1,4 +1,13 @@
 {
+    "Professors":[
+        
+    ],
+    "Overall Coordinators": [
+
+    ],
+    "Team Leaders": [
+
+    ],
     "Marketing": [
         {
             "Name": "Manisha Sahu",
@@ -309,7 +318,7 @@
             "pic": ""
         }
     ],
-    "Design": [
+    "Creatives": [
         {
             "Name": "Vyankatesh Chavan ",
             "Position": "Head",
@@ -352,16 +361,6 @@
             "Instagram": "https://instagram.com/rishit_mehrotra_?igshid=ZDc4ODBmNjlmNQ==",
             "LinkedIn": "https://www.linkedin.com/in/rishit-mehrotra-637488250",
             "GitHub": "github.com/mehrotrarishit",
-            "pic": ""
-        }
-    ],
-    "Startup expo": [
-        {
-            "Name": "Sahil bharti ",
-            "Position": "Volunteer ",
-            "Instagram": "https://instagram.com/its_sahil287?igshid=Y2M0YTlkZGNmOQ==",
-            "LinkedIn": "https://www.linkedin.com/in/sahil-bharti-6070bb260",
-            "GitHub": "",
             "pic": ""
         }
     ]

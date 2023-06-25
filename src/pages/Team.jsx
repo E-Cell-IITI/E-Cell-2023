@@ -13,87 +13,133 @@ const Team = () => {
                 </div>
                 <section>
 
-                    <div className='grid  grid-cols-3 md:grid-cols-5 gap-10 py-5 ' >
-                        <div></div>
+                    <div className='grid md:grid-cols-3 gap-10 lg:gap-28 py-5 px-6 lg:px-32' >
 
                         <PeopleCard />
                         <PeopleCard />
                         <PeopleCard />
-                        <div></div>
 
                     </div>
                 </section>
                 <section>
 
-                    <div className=' grid grid-cols-1 md:grid-cols-3 gap-10 py-5'>
-                        <div></div>
+                <div className=' grid grid-cols-1 md:grid-cols-3  lg:gap-10 py-5 px-6 lg:px-32'>
+                <div></div>
                         <PeopleCard />
                         <div></div>
+
                     </div>
-                    <div className=' grid grid-cols-1 md:grid-cols-3 gap-10 py-5'>
+                    <div className=' grid grid-cols-1 md:grid-cols-3 lg:gap-10 py-5 px-6 lg:px-32F'>
                         <div></div>
                         <PeopleCard />
                         <div></div>
                     </div>
                 </section>
                 <section>
-
-                    <div className=' grid grid-cols-2 md:grid-cols-6 gap-12 py-5'>
-                        <div></div>
-
-                        <PeopleCard />
-                        <PeopleCard />
-                        <PeopleCard />
-                        <PeopleCard />
-                        <div></div>
-
-                    </div>
-
-                    <h3 className='text-white text-center font-bold pt-10'>Marketing Team</h3>
-                    <div className=' grid grid-cols-2 md:grid-cols-6 gap-12 py-5'>
-                        <div></div>
+                <h3 className='text-white text-center font-bold pt-10 text-3xl'>Team Leaders</h3>
+                    <div className=' grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12 py-5 px-12 md:px-2 lg:px-6'>
+                        {/* <div></div> */}
 
                         <PeopleCard />
                         <PeopleCard />
                         <PeopleCard />
                         <PeopleCard />
-                        <div></div>
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        {/* <div></div> */}
 
                     </div>
-                    <h3 className='text-white text-center font-bold pt-10'>Social Media Team</h3>
 
-                    <div className=' grid grid-cols-2 md:grid-cols-6 gap-12 py-5'>
-                        <div></div>
-
-                        <PeopleCard />
-                        <PeopleCard />
-                        <PeopleCard />
-                        <PeopleCard />
-                        <div></div>
-
-                    </div>
-                    <h3 className='text-white text-center font-bold pt-10'>Content Team</h3>
-
-                    <div className=' grid grid-cols-2 md:grid-cols-6 gap-12 py-5'>
-                        <div></div>
+                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Marketing Team</h3>
+                    <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
+                        {/* <div></div> */}
 
                         <PeopleCard />
                         <PeopleCard />
                         <PeopleCard />
                         <PeopleCard />
-                        <div></div>
+                        <PeopleCard />
+                        <PeopleCard />
+                        {/* <div></div> */}
 
                     </div>
-                    <h3 className='text-white text-center font-bold pt-10'>Web Development Team</h3>
+                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Marketing Team</h3>
+                    <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
+                        {/* <div></div> */}
 
-                    <div className=' grid grid-cols-2 md:grid-cols-6 gap-12 py-5'>
-                        <div></div>
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        {/* <div></div> */}
+
+                    </div>
+                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Marketing Team</h3>
+                    <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
+                        {/* <div></div> */}
 
                         <PeopleCard />
                         <PeopleCard />
                         <PeopleCard />
                         <PeopleCard />
-                        <div></div>
+                        <PeopleCard />
+                        <PeopleCard />
+                        {/* <div></div> */}
+
+                    </div>
+                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Marketing Team</h3>
+                    <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
+                        {/* <div></div> */}
+
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        {/* <div></div> */}
+
+                    </div>
+                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Marketing Team</h3>
+                    <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
+                        {/* <div></div> */}
+
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        {/* <div></div> */}
+
+                    </div>
+                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Marketing Team</h3>
+                    <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
+                        {/* <div></div> */}
+
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        {/* <div></div> */}
+
+                    </div>
+                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Marketing Team</h3>
+                    <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
+                        {/* <div></div> */}
+
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        <PeopleCard />
+                        {/* <div></div> */}
 
                     </div>
                 </section>
