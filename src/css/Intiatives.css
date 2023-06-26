@@ -39,7 +39,7 @@
     background-size: cover;
     padding: 10rem 0 0;
     width: 100%;
-    /* height: 35vh; */
+    height:79%;
     border-radius: 0.5rem;
     overflow: hidden;
     transition: transform 500ms ease;
@@ -86,7 +86,7 @@
   
   @media (hover) {
     .card-content {
-      transform: translateY(42%);
+      transform: translateY(50%);
       transition: transform 500ms ease;
     }
 
