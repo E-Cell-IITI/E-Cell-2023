@@ -1,15 +1,15 @@
 import React from 'react'
-import img1 from '../images/tkp.png'
-import img2 from '../images/amul.png'
-import img3 from '../images/rev.jpg'
+import img1 from '../images/sam-walton.webp'
+import img2 from '../images/low_price.jpg'
+import img3 from '../images/growth.jpg'
 export default function BlogsPage3() {
   return (
     <div>
       <>
             <div className="bg-gray-900 py-12 px-36 lg:py-20">
                 <div className="py-8">
-                    <h1 className="text-white text-6xl text-center font-bold pb-12">Amul-Case Study</h1>
-                    <p className="text-right italic">Published on 1 June 2023</p>
+                    <h1 className="text-white text-6xl text-center font-bold pb-12">WallMart - Case Study</h1>
+                    <p className="text-right italic">Published on 21 June 2023</p>
                 </div>
                 
                 <div className="lg:flex lg:flex-row-reverse w-full">
@@ -63,7 +63,7 @@ export default function BlogsPage3() {
                     </div>
                 </div>
                 <div className="pb-12 text-2xl pb-8">
-                    <h1 className="text-white text-4xl font-bold pb-4">Advertising Strategy</h1>
+                    <h1 className="text-white text-4xl font-bold pb-4">Financial Report</h1>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                             Iure dicta sequi quis beatae obcaecati. Ea quaerat labore 
                             accusantium beatae voluptatum, voluptate temporibus porro 

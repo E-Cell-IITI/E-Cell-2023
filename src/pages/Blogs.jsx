@@ -1,6 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination,Autoplay} from 'swiper';
+import { Link } from "react-router-dom"
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -58,9 +59,7 @@ export default function Blogs(props) {
                     <h1 className = "font-dmserif text-3xl font-bold text-white mb-4 group-hover:mb-4">{val.heading}</h1>
                     <p className='w-full mb-6 text-right font-semibold'>{val.date}</p>
                     <p className = "text-lg italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">{val.content}</p>
-                    <button className ="font-com rounded-full shadow shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white">
-                        Read More
-                    </button>
+                    <a  target = "_blank" href ={val.link} class="px-6 py-3 text-blue-100 no-underline bg-blue-500 rounded hover:bg-blue-600 hover:underline hover:text-blue-200" >Read More</a>
                     
                 </div>
             </div>
