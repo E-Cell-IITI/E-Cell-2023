@@ -29,7 +29,7 @@ export default function Homepage(){
         <Gallery/>
         <Gallery2
         galleryImages={galleryImages}/>
-        {/* <Blogs {...BlogsData} /> */}
+        <Blogs {...BlogsData} />
         </>
     )
 }
