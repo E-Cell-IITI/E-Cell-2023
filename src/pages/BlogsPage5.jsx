@@ -1,8 +1,15 @@
 import React from 'react'
-import img1 from '../images/tkp.png'
-import img2 from '../images/amul.png'
-import img3 from '../images/rev.jpg'
-export default function BlogsPage4() {
+import img1 from '../images/ipl.webp'
+import img2 from '../images/ss1.webp'
+import img3 from '../images/viacom.png'
+import img4 from '../images/tata.jpg'
+import img5 from '../images/Paytm_Logo.jpg'
+import img6 from '../images/swiggy.png'
+import img7 from '../images/ceat.png'
+import img8 from '../images/rcb.png'
+import img9 from '../images/mi.png'
+import img10 from '../images/csk.png'
+export default function BlogsPage5() {
   return (
     <div>
       <>
@@ -17,15 +24,9 @@ export default function BlogsPage4() {
                         <img src={img1} className="w-full py-24 md:py-32"></img>
                     </div>
                     <div className="lg:w-3/5 pb-12 text-2xl pb-8">
-                    <h1 className="text-white text-4xl font-bold pb-4">Origin</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Iure dicta sequi quis beatae obcaecati. Ea quaerat labore 
-                            accusantium beatae voluptatum, voluptate temporibus porro 
-                            iusto accusamus libero, nam maxime optio alias. Lorem ipsum 
-                            dolor sit amet consectetur adipisicing elit. Earum, amet.
-                             Officia vero nihil, itaque, officiis ratione possimus alias 
-                             vitae nam sed quisquam id maiores, dolorum quod unde eos 
-                             repudiandae similique.</p>
+                    {/* <h1 className="text-white text-4xl font-bold pb-4">Origin</h1> */}
+                        <p>IPL is a profitable venture started back in 2008 by BCCI. And now it has become a money making machine for the organization. Let us have a look at the Brand value of IPL and the earnings of BCCI through IPL.
+                         </p><p> Last Year Viacom 18 in the month of June won the IPL's digital media rights for Rs 23,758 crore, while Star India grabbed India TV rights for 23,575 crore in a SAIA five-year deal. vive Camera & Musk Cantera & Music vivo Camera </p>
                     
                     </div>
                 </div>

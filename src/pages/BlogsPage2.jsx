@@ -18,14 +18,9 @@ export default function BlogsPage2() {
                     </div>
                     <div className="lg:w-3/5 pb-12 text-2xl pb-8">
                     <h1 className="text-white text-4xl font-bold pb-4">Origin</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Iure dicta sequi quis beatae obcaecati. Ea quaerat labore 
-                            accusantium beatae voluptatum, voluptate temporibus porro 
-                            iusto accusamus libero, nam maxime optio alias. Lorem ipsum 
-                            dolor sit amet consectetur adipisicing elit. Earum, amet.
-                             Officia vero nihil, itaque, officiis ratione possimus alias 
-                             vitae nam sed quisquam id maiores, dolorum quod unde eos 
-                             repudiandae similique.</p>
+                        <p>Amul was found on 19 December 1946 as a response to the exploitation of small dairy farmers by traders and agents. At the time, milk prices were arbitrarily determined, giving Polson an effective monopoly in milk
+Collection from Kaira and its subsequent supply to Mumbai.</p><p>
+Tribhuvandas Kishibhai Patel founded the organization in 1946 and served as its chairman until his retirement in the 1970s. He hired Verghese Kurien in 1949,initially as the general manager, where Kurien guided the technical and marketing efforts of the cooperative.</p>
                     
                     </div>
                 </div>
@@ -35,7 +30,7 @@ export default function BlogsPage2() {
                     </div>
                 <div className="lg:w-3/5 text-2xl pb-8">
                 <h1 className="text-white text-4xl font-bold pb-12">Business Model</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, inventore maiores praesentium eius pariatur et blanditiis amet laboriosam voluptas tempora sint recusandae fugit odio quasi. Maiores eaque eveniet sunt accusamus!</p>
+                <p>A cooperative society is one where people come together and pool their resources. All these people are members. They take care of resources, finances, and operations of the cooperative enterprise.The advantage of cooperative is one and only, scalability.</p>
                              
                         
                     
@@ -49,29 +44,24 @@ export default function BlogsPage2() {
                     <div className="lg:w-3/5 pb-12 text-2xl pb-8">
                     <h1 className="text-white text-4xl font-bold pb-4">Revenue</h1>
                     <ul className ="text-white list-disc">
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi cumque fugiat.</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus nostrum hic.</li>
+                            <li>7 billion USD or 55055 crore revenue in 2022</li>
+                            <li>Daily Milk Collection 27 million liters</li>
                         </ul>
                     <h1 className="text-white text-4xl font-bold pb-4">Growth</h1>
                     <ul className ="text-white list-disc">
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi cumque fugiat.</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus nostrum hic.</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus nostrum hic.</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus nostrum hic.</li>
+                            <li>It is important to note that Amul was ranked 18th largest dairy organization of the world</li>
+                            <li>In the year 2011 and rising up to its current position as 9th largest dairy organization and targeting to enter top 3 dairy organizations.</li>
+                            <li>Amul expects a growth rate of 20% for FY24.</li>
+                            <li>In 2023 Amul's turnover growth was 18.5%</li>
                         </ul>
                     
                     </div>
                 </div>
                 <div className="pb-12 text-2xl pb-8">
                     <h1 className="text-white text-4xl font-bold pb-4">Advertising Strategy</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Iure dicta sequi quis beatae obcaecati. Ea quaerat labore 
-                            accusantium beatae voluptatum, voluptate temporibus porro 
-                            iusto accusamus libero, nam maxime optio alias. Lorem ipsum 
-                            dolor sit amet consectetur adipisicing elit. Earum, amet.
-                             Officia vero nihil, itaque, officiis ratione possimus alias 
-                             vitae nam sed quisquam id maiores, dolorum quod unde eos 
-                             repudiandae similique.</p>
+                        <p>Amul's tagline- 'The taste of India' is a reflection of the brand's commitment to providing consumers with authentic and delicious dairy products.</p><p>
+Another iconic aspect of Amul's branding is The never-ageing girl The Amul Girl is often depicted in cartoons, holding a packet of Amul butter and commenting on current events, sports, and social issues in a humorous and satirical manner. The Amul Girl has not only helped the brand connect with consumers on a deeper level but has also become a symbol of India's vibrant and diverse culture.</p><p>
+Amul marketed all of its products under a single name, which helps the brand sum up its marketing and advertising costs within 1% of the revenue.</p>
                     
                     </div>
                 
