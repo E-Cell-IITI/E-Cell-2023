@@ -1,12 +1,39 @@
 {
-    "Professors":[
-        
-    ],
-    "Overall Coordinators": [
-
-    ],
+    "Professors": [],
+    "Overall Coordinators": [],
     "Team Leaders": [
-
+        {
+            "Name": "Pranjal Jaiswal",
+            "Position": "Video Production Head",
+            "Instagram": "https://instagram.com/pranjal._.jaiswal?igshid=MjEwN2IyYWYwYw==",
+            "LinkedIn": "https://www.linkedin.com/in/pranjal-jaiswal-37a12a201",
+            "GitHub": "https://github.com/PranjalJaiswal-IITI",
+            "pic": ""
+        },
+        {
+            "Name": "Vyankatesh Chavan ",
+            "Position": "Design Team Head ",
+            "Instagram": "https://instagram.com/vyankatesh_chavan_?igshid=NGExMmI2YTkyZg==",
+            "LinkedIn": "https://www.linkedin.com/in/vyankatesh-chavan-bbb383230",
+            "GitHub": "https://github.com/ojomg",
+            "pic": ""
+        },
+        {
+            "Name": "Nivedita",
+            "Position": "Content and Social Media Head",
+            "Instagram": "https://www.instagram.com/nive_jha/",
+            "LinkedIn": "https://www.linkedin.com/in/nivedita-376271227/",
+            "GitHub": "https://github.com/Nivedita123455",
+            "pic": ""
+        },
+        {
+            "Name": "Chirag Gour",
+            "Position": "Outreach Team Head",
+            "Instagram": "https://instagram.com/_chirag__17?igshid=NGExMmI2YTkyZg==",
+            "LinkedIn": "https://www.linkedin.com/in/chirag-gour-a58941232",
+            "GitHub": "https://github.com/devanshi00",
+            "pic": ""
+        }
     ],
     "Marketing": [
         {
@@ -160,6 +187,38 @@
             "LinkedIn": " https://www.linkedin.com/in/prachi-patil-93402725b/",
             "GitHub": "https://github.com/Prachi-0205",
             "pic": ""
+        },
+        {
+            "Name": "Hrishikesh Hiremath",
+            "Position": "Core Member",
+            "Instagram": "https://instagram.com/hrishikesh_hiremath?igshid=MzNlNGNkZWQ4Mg==",
+            "LinkedIn": " https://www.linkedin.com/in/hrishikesh-hiremath/",
+            "GitHub": "https://github.com/Hrishikesh-H",
+            "pic": ""
+        },
+        {
+            "Name": "Harshita Bankure",
+            "Position": "Core Member",
+            "Instagram": "https://www.instagram.com/harshita_bankure/",
+            "LinkedIn": " https://www.linkedin.com/in/harshita-bankure-37508525b/",
+            "GitHub": "https://github.com/harshitab04",
+            "pic": ""
+        },
+        {
+            "Name": "Shreya Itlod",
+            "Position": "Core Member",
+            "Instagram": "https://www.instagram.com/__shri03/#",
+            "LinkedIn": " https://www.linkedin.com/in/shreya-itlod-40b02825b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzXt2io9NTKCooDvAX42u1w%3D%3D",
+            "GitHub": "https://github.com/i-shri",
+            "pic": ""
+        },
+        {
+            "Name": "Anshu Ratan",
+            "Position": "Core Member",
+            "Instagram": "https://instagram.com/anshu_ratan_1101?igshid=MzNlNGNkZWQ4Mg==",
+            "LinkedIn": " https://www.linkedin.com/in/anshu-ratan-b617601bb",
+            "GitHub": "",
+            "pic": ""
         }
     ],
     "Outreach": [
@@ -266,6 +325,46 @@
             "LinkedIn": "https://www.linkedin.com/in/pulkit-gupta-45810825b/",
             "GitHub": "https://github.com/PULKITMAN",
             "pic": ""
+        },
+        {
+            "Name": "Satvik Desai",
+            "Position": "Volunteer",
+            "Instagram": "https://www.instagram.com/satvik_3184/",
+            "LinkedIn": "https://www.linkedin.com/in/satvik-desai-b77a2524b/",
+            "GitHub": "https://github.com/SATTU3108",
+            "pic": ""
+        },
+        {
+            "Name": "Pooja Patel ",
+            "Position": "Volunteer",
+            "Instagram": "https://instagram.com/ppatel_in07?igshid=ZDc4ODBmNjlmNQ==",
+            "LinkedIn": "https://www.linkedin.com/in/pooja-patel-89351a25a",
+            "GitHub": "https://github.com/protista009",
+            "pic": ""
+        },
+        {
+            "Name": "Madhav Rathore",
+            "Position": "Volunteer",
+            "Instagram": "https://instagram.com/mady._.663?igshid=MjEwN2IyYWYwYw==",
+            "LinkedIn": "https://www.linkedin.com/in/madhav-rathore-8a42bb253",
+            "GitHub": "https://github.com/Madhav1234569",
+            "pic": ""
+        },
+        {
+            "Name": "Chirag Gour",
+            "Position": "Volunteer",
+            "Instagram": "https://instagram.com/_chirag__17?igshid=NGExMmI2YTkyZg==",
+            "LinkedIn": "https://www.linkedin.com/in/chirag-gour-a58941232",
+            "GitHub": "https://github.com/SATTU3108",
+            "pic": ""
+        },
+        {
+            "Name": "Himanshu khati ",
+            "Position": "Volunteer",
+            "Instagram": "https://instagram.com/him_army321?igshid=ZDc4ODBmNjlmNQ==",
+            "LinkedIn": "https://www.linkedin.com/in/himanshu-khati-b7061b231",
+            "GitHub": "https://github.com/Hima-101",
+            "pic": ""
         }
     ],
     "Technical": [
@@ -310,11 +409,11 @@
             "pic": ""
         },
         {
-            "Name": "",
-            "Position": "",
-            "Instagram": "",
-            "LinkedIn": "",
-            "GitHub": "",
+            "Name": "Ajay choudhary ",
+            "Position": "Core Member",
+            "Instagram": "https://www.instagram.com/_ajay_1310/",
+            "LinkedIn": "https://www.linkedin.com/in/ajay-choudhary-0401aa22b/",
+            "GitHub": "https://github.com/AJAYrocks13",
             "pic": ""
         }
     ],
@@ -325,6 +424,22 @@
             "Instagram": "https://instagram.com/vyankatesh_chavan_?igshid=NGExMmI2YTkyZg==",
             "LinkedIn": "https://www.linkedin.com/in/vyankatesh-chavan-bbb383230",
             "GitHub": "https://github.com/ojomg",
+            "pic": ""
+        },
+        {
+            "Name": "Tejas Chaudhari",
+            "Position": "Head",
+            "Instagram": "https://instagram.com/tejas.chaudhari22?igshid=MzNlNGNkZWQ4Mg===",
+            "LinkedIn": "https://www.linkedin.com/in/tejas-chaudhari-650543250/",
+            "GitHub": "https://github.com/tejasopp",
+            "pic": ""
+        },
+        {
+            "Name": "Yash Yewale  ",
+            "Position": "Head",
+            "Instagram": "https://instagram.com/yash_yewale163?igshid=OTk0YzhjMDVlZA==",
+            "LinkedIn": "https://www.linkedin.com/in/yash-yewale-29a453256",
+            "GitHub": "https://github.com/yashy-163",
             "pic": ""
         }
     ],
@@ -346,7 +461,7 @@
             "pic": ""
         }
     ],
-    "Content and social media": [
+    "Content_and_social_media": [
         {
             "Name": "Nivedita",
             "Position": "Head",
@@ -361,6 +476,30 @@
             "Instagram": "https://instagram.com/rishit_mehrotra_?igshid=ZDc4ODBmNjlmNQ==",
             "LinkedIn": "https://www.linkedin.com/in/rishit-mehrotra-637488250",
             "GitHub": "github.com/mehrotrarishit",
+            "pic": ""
+        },
+        {
+            "Name": "Kanika Upadhyay",
+            "Position": "Core Member",
+            "Instagram": "https://instagram.com/not_kanika_upadhyay?igshid=MzNlNGNkZWQ4Mg==",
+            "LinkedIn": "https://www.linkedin.com/in/kanika-upadhyay-92208025b/",
+            "GitHub": "https://github.com/KANIKAAAAA",
+            "pic": ""
+        },
+        {
+            "Name": "Palak devdwal ",
+            "Position": "Core Member",
+            "Instagram": "https://instagram.com/palak.devdwal?igshid=NGExMmI2YTkyZg==",
+            "LinkedIn": "https://www.linkedin.com/in/palak-devdwal-166598270",
+            "GitHub": "https://github.com/15Palak",
+            "pic": ""
+        },
+        {
+            "Name": "Saksham Gupta ",
+            "Position": "Core Member",
+            "Instagram": "https://www.instagram.com/saksham__gupta__21/",
+            "LinkedIn": "https://www.linkedin.com/in/saksham-gupta-2aa803251",
+            "GitHub": "https://github.com/saksham2145",
             "pic": ""
         }
     ]

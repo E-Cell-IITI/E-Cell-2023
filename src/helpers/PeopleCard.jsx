@@ -18,16 +18,16 @@ const PeopleCard = (props) => {
 
                 <div className={TeamCss.imageContainer}>
                     <div className={TeamCss.side_div}>
-                        <Link to="/">
+                        <Link to={props.linkedin}>
                             <FaLinkedin className="text-white text-xl" />
                         </Link>
-                        <Link>
+                        <Link to={props.insta}>
                             <FaInstagram className="text-white text-xl" />
                         </Link>
-                        <Link>
+                        <Link to={props.fb}>
                             <FaFacebook className="text-white text-xl" />
                         </Link>
-                        <Link>
+                        <Link to={props.mail}>
                             <SiGmail className="text-white text-xl" />
                         </Link>
 
@@ -37,9 +37,9 @@ const PeopleCard = (props) => {
                 </div>
 
                 <div className={TeamCss.textContainer}>
-                    <h3 className={TeamCss.POR}>overall coordinator</h3>
-                    <p className={TeamCss.PORname}>name</p>
-                    <p className={TeamCss.PORsurname}>surname</p>
+                    <h3 className={TeamCss.POR}>{props.por}</h3>
+                    <p className={TeamCss.PORname}>{props.name}</p>
+                    <p className={TeamCss.PORsurname}>{props.surname}</p>
                 </div>
                 <div className={TeamCss.empty_div}>
 
