@@ -260,7 +260,7 @@ background: linear-gradient(0deg, rgba(0,0,0,0.59) 0%, rgba(50,130,184,0.8) 46%,
     color: #2a87c6;
 }
 li{
-    color: #d8d4d4;
+    color: #d8d4d4fc;
 }
 
 .active_slide{
