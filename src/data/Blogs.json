@@ -5,35 +5,35 @@
             "heading":"Mc Donald's- Case Study",
             "date":"15 March 2023",
             "content":"Mc Donald's is probably one of the very first quick service restaurants that have been established in India,and God,they stayed.From ordering...",
-            "link":"../src/pages/BlogsPage.jsx"
+            "link":"/blogs"
         },
         {
             "img":"images/amul.jpg",
             "heading":"Amul - Case Study",
             "date":"1 June 2023",
             "content":"You don't build a business, you build people, then people build the business. This is what Amul has been following since years. It is the whole...",
-            "link":"../src/pages/BlogsPage2.jsx"
+            "link":"/blogs2"
         },
         {
             "img":"images/ipl.jpg",
             "heading":"IPL - Case Study",
             "date":"30 March 2023",
             "content":"Though the magnificent tournament has come to an end for this season, the hype and excitement for it is still alive in the hearts of all the fans. This has...",
-            "link":"../src/pages/BlogsPage5.jsx"
+            "link":"/blogs3"
         },
         {
             "img":"images/skyroot.png",
             "heading":"Skyroot - Case Study",
             "date":"11 June 2023",
             "content":"'A small step by a man in space is a huge leap for mankind'. We all fairly agree that space research has become one of the strong-standing pillars of...",
-            "link":"../src/pages/BlogsPage4.jsx"
+            "link":"/blogs4"
         },
         {
             "img":"images/walmart.webp",
             "heading":"Walmart - Case Study",
             "date":"21 June 2023",
             "content":"Sam Walton, Founder of Walmart once said, 'There is only one boss. The customer , and he can fire everybody in the company from the chairman down...",
-            "link":"../src/pages/BlogsPage3.jsx"
+            "link":"/blogs5.jsx"
         }
     
     ]

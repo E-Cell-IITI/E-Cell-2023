@@ -9,18 +9,22 @@ import 'swiper/css/autoplay'
 
 
 export default function Blogs(props) {
-
+  const [width, setWidth] = React.useState(window.innerWidth);
+  React.useEffect(() => {
+    
+    window.addEventListener("resize", () => setWidth(window.innerWidth));
+  }, []);
   return (
      <section id="blogs">
     <div className='bg-gradient-to-t from-[#0F4F7A] to-[#DDDDDD] py-4'>
     <div className = "flex-col min-h-screen items-center justify-center ">
-     <div className='flex items-center justify-center text-center gap-4 text-6xl font-semibold my-16 mb-36 translate-y-[100%] drop-shadow-lg transition-transform duration-500 transform translate-x-0'>
+     <div className='flex items-center justify-center text-center gap-4 text-6xl font-semibold my-16 mb-36 translate-y-[100%] drop-shadow-lg transition-transform duration-500 transform'>
        <div className='drop-shadow-lg'>OUR</div>
        <div className='text-[#0060A1]'>BLOGS</div>   
 </div>
-  <div className = "flex items-center justify-center">
+  <div className = " items-center justify-center">
  
-  <div className="px-4 md:px-6 lg:px-10 w-full">
+  <div className="px-4 md:px-2 lg:px-10" style={{width: width}}>
   <Swiper
       // install Swiper modules
       modules={[Pagination, Autoplay]}
@@ -32,7 +36,7 @@ export default function Blogs(props) {
       pagination={{clickable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
-      className='px-8'
+      className='px-8 w-full'
       breakpoints={{
         0: {
             slidesPreview:1,
