@@ -21,7 +21,7 @@ function App(props) {
     return (
         <div className="py-16 md:py-24">
 
-            <div className="flex flex-col justify-center items-center px-4 pb-20">
+            <div className="flex flex-col justify-center items-center px-8 pb-20">
                 <h1 className="text-center pt-10 pb-20 md:pb-28 text-6xl font-semibold">Recent <span className="text-[#0060a1]">Events</span></h1>
 
                 <div className="flex justify-center items-center w-full lg:px-12">

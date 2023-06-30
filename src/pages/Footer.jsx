@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 export default function Footer(props) {
   return (
      <section id="contact">
-    <footer className="bg-black py-8 px-4 sm:px-8 lg:px-16 xl:px-20">
+    <footer className="bg-black py-8 px-12 sm:px-8 lg:px-16 xl:px-20">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 items-center">
           <div className="flex flex-col space-y-4">

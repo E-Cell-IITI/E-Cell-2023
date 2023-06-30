@@ -6,6 +6,7 @@ module.exports = {
   ],
   theme: {
     extend: {},
+  
   },
   plugins: [
     require('@shrutibalasa/tailwind-grid-auto-fit'),

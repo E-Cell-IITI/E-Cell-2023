@@ -14,7 +14,7 @@ export default function Initiatives() {
           INITIATIVES
         </h1>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 mx-8 md:mx-32 pb-16 gap-20 lg:mx-28 lg:gap-24 pt-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mx-12 md:mx-32 pb-16 gap-20 lg:mx-28 lg:gap-24 pt-12">
       {data.map((item) => (
   <CardContainer
     key={item.id}

@@ -5,13 +5,14 @@ import Team from "./pages/Team";
 import Footer from "./pages/Footer";
 import Homepage from "./pages/Homepage";
 import FooterData from "./data/Footer.json";
-import Gallery from "./pages/Gallery2";
+import galleryImages from './data/Gallery2';
 
 import BlogsPage from "./pages/BlogsPage";
 import BlogsPage2 from "./pages/BlogsPage2";
 import BlogsPage3 from "./pages/BlogsPage3";
 import BlogsPage4 from "./pages/BlogsPage4";
 import BlogsPage5 from "./pages/BlogsPage5";
+import Gallery2 from "./pages/Gallery2";
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/blogs3" element={<BlogsPage3/>}/>
           <Route exact path="/blogs4" element={<BlogsPage4/>}/>
           <Route exact path="/blogs5" element={<BlogsPage5/>}/>
+          <Route exact path="/gallery" element={<Gallery2 galleryImages={galleryImages}/>}/>
           
         </Routes>
       </BrowserRouter>
