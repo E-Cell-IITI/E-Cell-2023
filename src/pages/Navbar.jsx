@@ -73,7 +73,7 @@ export default function Header(props) {
           <ul className="flex flex-col items-center justify-between min-h-[250px] text-[#0060A1] overflow-y-auto mobile-menu">
               {props.pages.map((val, index) => (
                 <li
-                  className="border-b border-slate-100 my-8 uppercase font-semibold text-slate-100 text-xl text-[#0060A1] mobile"
+                  className="border-b border-slate-100 my-8 uppercase font-semibold text-slate-100 text-lg mobile"
                   key={index}
                 >
                    <Link
