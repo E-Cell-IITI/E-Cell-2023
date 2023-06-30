@@ -209,8 +209,8 @@ video {
 }
 
 .my-8 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+ margin-top: 1.2rem;
+ margin-bottom: 1rem;
 }
 
 .mb-8 {
@@ -257,6 +257,11 @@ video {
 
 .w-8 {
   width: 2rem;
+}
+
+.text-lg{
+  font-size: 1.150rem; 
+  line-height: 1.25rem; 
 }
 
 @-webkit-keyframes pulse {
