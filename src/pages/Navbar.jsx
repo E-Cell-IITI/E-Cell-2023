@@ -33,7 +33,7 @@ export default function Header(props) {
   return (
     
       <div className={classNames(
-        'flex fixed items-center justify-between py-2 bg-transparent top-0 z-50 w-full px-8 lg:px-16 right-0 left-0', 
+        'flex fixed items-center justify-between py-2 bg-transparent top-0 z-50 w-full px-8 lg:px-16', 
         colorChange?'bg-white':'bg-transparent',
   )}>
       <img src="./ecell.png" alt="Logo" className="object-contain w-32 mx-6 md:mx-4"  />
