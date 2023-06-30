@@ -25,7 +25,7 @@ export default function About(props) {
             E-CELL <span className="text-[#0060A1]">IIT INDORE</span>
           </h1>
         </div>
-        <div className="aboutContent font-['Inter'] font-semibold text-2xl -tracking-[0.04em] leading-[30px] mt-8 overflow-hidden mb-20 wow animate__animated animate__fadeInUpBig">
+        <div className="aboutContent font-['Inter'] font-semibold text-[140%] -tracking-[0.04em] leading-[30px] mt-8 overflow-hidden mb-20 wow animate__animated animate__fadeInUpBig">
           <p className="para1 text-[#1B262C] font-normal">
          {props.content1}
           </p>
@@ -35,9 +35,13 @@ export default function About(props) {
             OUR <span className="text-[#0060A1]">VISION</span>
           </h1>
         </div>
-        <div className="aboutContent font-['Inter'] font-semibold text-2xl -tracking-[0.04em] leading-[30px] mt-8 overflow-hidden wow animate__animated animate__fadeInUpBig">
+        <div className="aboutContent font-['Inter'] font-semibold text-[140%] -tracking-[0.04em] leading-[30px] mt-8 overflow-hidden wow animate__animated animate__fadeInUpBig">
           <p className="para1 text-[#1B262C] font-normal">
           {props.content2}
+          <br></br>
+          {props.content3}
+          <br></br>
+          {props.content4}
           </p>
         </div>
       </div>

@@ -74,7 +74,9 @@ function App(props) {
                                         <div className="bg-[#1B2A2C] bg-opacity-75 opacity-0 w-full py-4 mb-4 group-hover:bg-opacity-0 group-hover:opacity-100">
                                             <h1 className="font-dmserif text-6xl font-bold text-white mb-4 group-hover:mb-4 ">E-Summit <span className="text-[#0060a1]">2023</span></h1>
                                         </div>
+                                        <div className="h-30vh">
                                         <p className="text-lg italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">{val.content}</p>
+                                        </div>
 
                                     </div>
                                 </div>
