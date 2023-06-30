@@ -33,7 +33,7 @@ export default function Header(props) {
   return (
     
       <div className={classNames(
-        'flex fixed items-center justify-between py-2 bg-transparent top-0 z-50 w-full px-8 lg:px-16', 
+        'flex fixed items-center justify-between py-2 bg-transparent top-0 z-50 w-full px-8 lg:px-16 right-0 left-0', 
         colorChange?'bg-white':'bg-transparent',
   )}>
       <img src="./ecell.png" alt="Logo" className="object-contain w-32 mx-6 md:mx-4"  />
@@ -73,7 +73,7 @@ export default function Header(props) {
           <ul className="flex flex-col items-center justify-between min-h-[250px] text-[#0060A1] overflow-y-auto mobile-menu">
               {props.pages.map((val, index) => (
                 <li
-                  className="border-b border-slate-100 my-8 uppercase font-semibold text-slate-100 text-xl text-[#0060A1] mobile"
+                  className="border-b border-slate-100 my-8 uppercase font-semibold text-slate-100 text-lg mobile"
                   key={index}
                 >
                    <Link
