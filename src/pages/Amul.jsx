@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../images/tkp.png'
-import img2 from '../images/amul.png'
-import img3 from '../images/rev.jpg'
+import img1 from '../images/amul/tkp.png'
+import img2 from '../images/amul/amul.png'
+import img3 from '../images/amul/rev.jpg'
 export default function BlogsPage2() {
   return (
     <div>

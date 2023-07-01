@@ -24,7 +24,7 @@ export default function Blogs(props) {
 </div>
   <div className = " items-center justify-center">
  
-  <div className="px-4 md:px-2 lg:px-10" style={{width: width}}>
+  <div className="px-12 md:px-2 lg:px-10" style={{width: width+55}}>
   <Swiper
       // install Swiper modules
       modules={[Pagination, Autoplay]}
@@ -59,7 +59,7 @@ export default function Blogs(props) {
                 <img  className ="h-full w-full object-cover group-hover:rotate-1 group-hover:scale-125 transition-transform duration-500" src={val.img} alt="" />
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
-                <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center translate-y-[64%] group-hover:translate-y-0 transitin-all">
+                <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center translate-y-[60%] group-hover:translate-y-0 transitin-all">
                     <h1 className = "font-dmserif text-3xl font-bold text-white mb-4 group-hover:mb-4">{val.heading}</h1>
                     <p className='w-full mb-6 text-right font-semibold'>{val.date}</p>
                     <p className = "text-lg italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">{val.content}</p>

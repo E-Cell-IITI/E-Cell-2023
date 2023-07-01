@@ -7,12 +7,12 @@ import Homepage from "./pages/Homepage";
 import FooterData from "./data/Footer.json";
 import galleryImages from './data/Gallery2';
 
-import BlogsPage from "./pages/BlogsPage";
-import BlogsPage2 from "./pages/BlogsPage2";
-import BlogsPage3 from "./pages/BlogsPage3";
-import BlogsPage4 from "./pages/BlogsPage4";
-import BlogsPage5 from "./pages/BlogsPage5";
-import Gallery2 from "./pages/Gallery2";
+import MCD from "./pages/MCD";
+import Amul from "./pages/Amul";
+import Walmart from "./pages/Walmart";
+import Skyroot from "./pages/Skyroot";
+import IPL from "./pages/IPL";
+import Gallery from "./pages/Gallery";
 
 function App() {
 
@@ -23,12 +23,12 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/team" element={<Team />} />
-          <Route exact path="/blogs" element={<BlogsPage/>}/>
-          <Route exact path="/blogs2" element={<BlogsPage2/>}/>
-          <Route exact path="/blogs3" element={<BlogsPage3/>}/>
-          <Route exact path="/blogs4" element={<BlogsPage4/>}/>
-          <Route exact path="/blogs5" element={<BlogsPage5/>}/>
-          <Route exact path="/gallery" element={<Gallery2 galleryImages={galleryImages}/>}/>
+          <Route exact path="/blog/detangling_mcdonalds" element={<MCD/>}/>
+          <Route exact path="/blog/amul_case_study" element={<Amul/>}/>
+          <Route exact path="/blogs/walmart_case_study" element={<Walmart/>}/>
+          <Route exact path="/blogs/skyroot_case_study" element={<Skyroot/>}/>
+          <Route exact path="/blogs/ipl_case_study" element={<IPL/>}/>
+          <Route exact path="/gallery" element={<Gallery galleryImages={galleryImages}/>}/>
           
         </Routes>
       </BrowserRouter>

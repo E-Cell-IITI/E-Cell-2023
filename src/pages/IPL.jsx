@@ -1,14 +1,7 @@
 import React from 'react'
-import img1 from '../images/ipl.webp'
-import img2 from '../images/ss1.webp'
-import img3 from '../images/viacom.png'
-import img4 from '../images/tata.jpg'
-import img5 from '../images/Paytm_Logo.jpg'
-import img6 from '../images/swiggy.png'
-import img7 from '../images/ceat.png'
-import img8 from '../images/rcb.png'
-import img9 from '../images/mi.png'
-import img10 from '../images/csk.png'
+import img1 from '../images/ipl/ipl.webp'
+import img2 from '../images/ipl/ss1.webp'
+import img3 from '../images/ipl/viacom.png'
 export default function BlogsPage5() {
   return (
     <div>

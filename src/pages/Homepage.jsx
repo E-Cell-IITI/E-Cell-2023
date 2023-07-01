@@ -3,7 +3,7 @@ import React from 'react';
 import Banner from './Banner';
 import About from './About';
 import Blogs from "./Blogs";
-import Gallery from "./Gallery";
+import Gallery from "./PastEvents";
 import Navbar from "./Navbar";
 import Initiatives from './Initiatives'
 import Events from './Events';
@@ -12,10 +12,9 @@ import Events from './Events';
 import BannerData from "../data/Banner.json";
 import NavbarData from "../data/Navabr.json"
 import AboutData from "../data/About.json"
-import EventsData from "../Events.json"
+import EventsData from "../data/Events.json"
 import BlogsData from '../data/Blogs.json';
-import Gallery2 from './Gallery2';
-import galleryImages from '../data/Gallery2';
+
 
 export default function Homepage(){
     

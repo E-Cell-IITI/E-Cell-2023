@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../images/sam-walton.webp'
-import img2 from '../images/low_price.jpg'
-import img3 from '../images/growth.jpg'
+import img1 from '../images/walmart/sam-walton.webp'
+import img2 from '../images/walmart/low_price.jpg'
+import img3 from '../images/walmart/growth.jpg'
 export default function BlogsPage3() {
   return (
     <div>

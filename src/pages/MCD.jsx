@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../images/Ray_Kroc.png"
-import img2 from "../images/burgers.png"
+import img1 from "../images/mcd/Ray_Kroc.png"
+import img2 from "../images/mcd/burgers.png"
 
 export default function BlogsPage() {
     return (

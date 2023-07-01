@@ -39,15 +39,16 @@
     "contact_info":[
         {
             "title": "Address",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos."
+            "description": "Room 302-B, PHY-1, Academic POD, IIT Indore, Madhya Pradesh-452020"
         },
         {
             "title": "Phone",
-            "description": "+91 1234567890"
+            "name": "Khushi Sawla",
+            "description": "+91 8989542652"
         },
         {
             "title": "Email",
-            "description": "example.com"
+            "description": "ecell@iiti.ac.in"
         }
     ],
     "copyright": "E-Cell IIT Indore. All Rights Reserved."

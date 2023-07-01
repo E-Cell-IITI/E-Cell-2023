@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from '../images/sky_origin-rbg.png'
-import img2 from '../images/Skyroot_New_Logo.jpg'
+import img1 from '../images/skyroot/sky_origin-rbg.png'
+import img2 from '../images/skyroot/Skyroot_New_Logo.jpg'
 export default function BlogsPage4() {
   return (
     <div>

@@ -1,28 +1,35 @@
 {
-    "pages": [
+    "links": [
         {
-            "title": "HOME"
+            "title": "HOME",
+            "link": "home"
         },
         {
-            "title": "ABOUT"
+            "title": "ABOUT",
+            "link": "about"
         },
         {
-            "title": "INITIATIVES"
+            "title": "INITIATIVES",
+            "link": "initiatives"
         },
         {
-            "title": "EVENTS"
+            "title": "EVENTS",
+            "link": "events"
         },
         {
-            "title": "GALLERY"
+            "title": "TEAM",
+            "link": "/team"
+        },{
+            "title":"GALLERY",
+            "links": "/gallery"
         },
         {
-            "title": "TEAM"
+            "title": "BLOGS",
+            "links": "blogs"
         },
         {
-            "title": "BLOGS"
-        },
-        {
-            "title": "CONTACT"
+            "title": "CONTACT",
+            "links": "contact"
         }
     
     ]

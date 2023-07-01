@@ -16,9 +16,9 @@ export default function Footer(props) {
                 <span className="text-white font-bold text-lg">IIT Indore</span>
               </div>
             </div>
-            <p className="text-gray-400 pr-4">
+            {/* <p className="text-gray-400 pr-4">
               {props.description}
-            </p>
+            </p> */}
             <div className="flex space-x-4">
              <a href={props.linkedin} target="_blank">
                 <div className="w-10 h-10 rounded-full bg-[#d9d9d9] flex items-center justify-center">
@@ -68,6 +68,12 @@ export default function Footer(props) {
               Contact Information
             </div>
             {props.contact_info.map((info, e) => (
+              (info.name) ? 
+              <div>
+              <p key={e} className="text-gray-400">{info.title}:<br></br>
+              {info.name}: {info.description}</p>
+              </div>
+              :
               <p key={e} className="text-gray-400">{info.title}: {info.description}</p>
             ))}
           </div>

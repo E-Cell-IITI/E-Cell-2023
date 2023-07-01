@@ -71,7 +71,7 @@ export default function Header(props) {
             </div>
            
           <ul className="flex flex-col items-center justify-between min-h-[250px] text-[#0060A1] overflow-y-auto mobile-menu">
-              {props.pages.map((val, index) => (
+              {props.links.map((val, index) => (
                 <li
                   className="border-b border-slate-100 my-8 uppercase font-semibold text-slate-100 text-lg mobile"
                   key={index}
@@ -93,10 +93,15 @@ export default function Header(props) {
         </section>
 
         <ul className="DESKTOP-MENU hidden space-x-12 lg:flex text-white">
-          {props.pages.map((val, index) => (
+          {props.links.map((val, index) => (
             <li className="text-xl font-semibold text-stone-950 desktop" key={index}>
+              {
+              (val.title === "TEAM" || val.tilte === "GALLERY")
+              ?
+              <a href={val.link}>{val.title}</a>
+              :
               <Link
-                to={val.title.toLowerCase()}
+                to={val.link}
                 spy={true}
                 smooth={true}
                 offset={-70} // Adjust this offset if necessary
@@ -104,6 +109,7 @@ export default function Header(props) {
               >
                 {val.title}
               </Link>
+}
             </li>
           ))}
         </ul>

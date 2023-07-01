@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 
 const CardContainer = ({ title, body,imagePath}) => (
   <div>
-    <h1 className=" text-5xl font-semibold text-center pb-2 px-4 h-[fit-content] md:h-[4vh] text-white">{title}</h1>
+    <h1 className=" text-4xl font-semibold text-center pb-2 px-4 h-[fit-content] md:h-[4vh] text-white">{title}</h1>
   <div className="card">
     <img className="h-96 w-full object-cover rounded-3xl" src={imagePath}></img>
     <div className="card-content">
