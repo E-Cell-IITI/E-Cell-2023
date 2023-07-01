@@ -21,6 +21,7 @@ function App(props) {
 
 
     return (
+        <section id = "events">
         <div className="py-16 md:py-24">
              <div className={visible}>
                     <h3 className="mt-3 text-center text-4xl font-black disp_head pt-6 pb-4">{heading}</h3>
@@ -98,6 +99,7 @@ function App(props) {
                 </div>
             </div>
         </div>
+        </section>
     )
 };
 

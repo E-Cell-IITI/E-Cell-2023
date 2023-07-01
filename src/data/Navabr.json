@@ -21,15 +21,15 @@
             "link": "/team"
         },{
             "title":"GALLERY",
-            "links": "/gallery"
+            "link": "/gallery"
         },
         {
             "title": "BLOGS",
-            "links": "blogs"
+            "link": "blogs"
         },
         {
             "title": "CONTACT",
-            "links": "contact"
+            "link": "contact"
         }
     
     ]

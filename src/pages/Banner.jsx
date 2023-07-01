@@ -5,12 +5,12 @@ import "../css/Banner.css";
 export default function Banner(props) {
   return (
     <section id="home">
-    <div className="banner bg-white w-full h-screen">
+    <div className="banner bg-white w-full h-screen p-0">
 
       {/* Background Video */}
 
       <video
-        className="w-full h-full object-cover absolute z-10 opacity-20"
+        className="w-full h-full object-cover right-0 left-0 absolute z-10 opacity-20 m-0"
         autoPlay
         muted
         loop
