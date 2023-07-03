@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/blogs/skyroot_case_study" element={<Skyroot/>}/>
           <Route exact path="/blogs/ipl_case_study" element={<IPL/>}/>
           <Route exact path="/gallery" element={<Gallery galleryImages={galleryImages}/>}/>
-          
+          <Route exact path = "/back" element  = {<Homepage/>}/>          
         </Routes>
       </BrowserRouter>
       <Footer {...FooterData} />

@@ -63,7 +63,7 @@ export default function Blogs(props) {
                     <h1 className = "font-dmserif text-3xl font-bold text-white mb-4 group-hover:mb-4">{val.heading}</h1>
                     <p className='w-full mb-6 text-right font-semibold'>{val.date}</p>
                     <p className = "text-lg italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">{val.content}</p>
-                    <a  target = "_blank" href ={val.link} class="px-6 py-3 text-blue-100 no-underline bg-blue-500 rounded hover:bg-blue-600 hover:underline hover:text-blue-200" >Read More</a>
+                    <a href={val.link} class="px-6 py-3 text-blue-100 no-underline bg-blue-500 rounded hover:bg-blue-600 hover:underline hover:text-blue-200" >Read More</a>
                     
                 </div>
             </div>

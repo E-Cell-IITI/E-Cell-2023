@@ -6,7 +6,7 @@ import {
   faCircleChevronRight,
   faCircleXmark
 } from '@fortawesome/free-solid-svg-icons'
-
+import { Link } from 'react-router-dom'
 import "../css/Gallery.css";
 export default function Gallery2({ galleryImages }) {
   const [slideNumber, setSlideNumber] = useState(0)
@@ -36,7 +36,11 @@ export default function Gallery2({ galleryImages }) {
   }
   return (
     <section id="gallery2">
+      <div className = "back">
+      <Link to= "/back" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2" >&larr; Home</Link>
+      </div> 
       <h1 className='gallery_header'>GALLERY</h1>
+      
       {openModal &&
         <div className='sliderWrap'>
           <FontAwesomeIcon icon={faCircleXmark} className='btnClose' onClick={handleCloseModal} />

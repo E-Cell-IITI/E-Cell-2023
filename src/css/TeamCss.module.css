@@ -153,6 +153,10 @@ p {
     animation: animation1 0.7s ease-in-out forwards;
 
 }
+.back{
+    padding : 4% 0;
+    text-align:left;
+}
 
 
 
