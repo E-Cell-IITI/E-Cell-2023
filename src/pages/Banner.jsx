@@ -10,7 +10,7 @@ export default function Banner(props) {
       {/* Background Video */}
 
       <video
-        className="w-full h-full object-cover right-0 left-0 absolute z-10 opacity-20 m-0"
+        className="w-full h-full object-cover right-0 left-0 absolute z-10 opacity-50 m-0"
         autoPlay
         muted
         loop
