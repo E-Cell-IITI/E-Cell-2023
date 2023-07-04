@@ -7,6 +7,7 @@ import Gallery from "./PastEvents";
 import Navbar from "./Navbar";
 import Initiatives from './Initiatives'
 import Events from './Events';
+import Team from './Team';
 
 
 import BannerData from "../data/Banner.json";
@@ -26,6 +27,7 @@ export default function Homepage(){
         <Initiatives/>
         <Events {...EventsData}/>
         <Gallery/>
+        <Team />
         <Blogs {...BlogsData} />
         </>
     )

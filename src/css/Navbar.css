@@ -130,7 +130,9 @@ svg
   /* 2 */
 }
 
-  
+.nav{
+  width: 100vw;
+}  
 
 img,
 video {

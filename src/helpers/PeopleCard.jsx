@@ -32,7 +32,7 @@ const PeopleCard = (props) => {
                         </Link>
 
                     </div>
-                    <img alt='profile' src="/images/Demo.png" />
+                    <img alt='profile' src={props.pic ? props.pic : "/images/Demo.png"} />
 
                 </div>
 

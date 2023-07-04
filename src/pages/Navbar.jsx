@@ -30,7 +30,7 @@ export default function Header(props) {
   return (
     <div
       className={classNames(
-        "flex fixed items-center justify-between py-2 bg-transparent top-0 z-50 w-full px-8 lg:px-16 right-0 left-0",
+        "nav flex fixed items-center justify-between py-2 bg-transparent top-0 z-50 w-full px-8 lg:px-16 right-0 left-0",
         colorChange ? "bg-white" : "bg-transparent"
       )}
     >
