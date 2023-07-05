@@ -60,7 +60,7 @@ const Team = () => {
                         {/* <div></div> */}
                         {TeamsData.Marketing.map((item, i) => (
 
-                            <PeopleCard pic="" linkedin={item.LinkedIn} insta={item.Instagram} fb={item.Instagram} mail={item.GitHub} por="" name={item.Name} />
+                            <PeopleCard pic={process.env.PUBLIC_URL + item.pic} linkedin={item.LinkedIn} insta={item.Instagram} fb={item.Instagram} mail={item.GitHub} por="" name={item.Name} />
                         ))}
 
                         {/* <div></div> */}
