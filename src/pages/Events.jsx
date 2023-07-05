@@ -80,7 +80,7 @@ function App(props) {
                         {props.upcoming.map((val, e) => (
                             <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30">
                                 <div className=" h-full lg:h-[75vh]">
-                                    <img className="h-full w-full object-cover group-hover:bg-opacity-0.1" src={val.img} alt="" />
+                                    <img className="h-full w-full group-hover:bg-opacity-0.1" src={val.img} alt="image" />
                                 </div>
                                 <div className="w-full absolute inset-0">
                                     <div className="w-full absolute inset-0 flex flex-col items-center justify-center text-center translate-y-[64%] group-hover:translate-y-0 transition-transform ease-in duration-700 group-hover:bg-[#1B2A2C] group-hover:bg-opacity-75">
