@@ -10,14 +10,14 @@ import { Link } from 'react-router-dom'
 const Team = () => {
     return (
         <div className='bg-[#1B262C]'>
-            
+
             <div className='container mx-auto px-5 m-auto'>
-            <div className={TeamCss.back}>
-                <Link to= "/back" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2" >&larr; Home</Link>
-                <div className={TeamCss.header}>
-                
-                    <h1><span className={TeamCss.text_blue}>Our</span><span className={TeamCss.text_white}> Team</span></h1>
-                </div>
+                <div className={TeamCss.back}>
+                    <Link to="/back" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2" >&larr; Home</Link>
+                    <div className={TeamCss.header}>
+
+                        <h1><span className={TeamCss.text_blue}>Our</span><span className={TeamCss.text_white}> Team</span></h1>
+                    </div>
                 </div>
                 <section>
 
@@ -72,7 +72,7 @@ const Team = () => {
 
                         {TeamsData.Technical.map((item, i) => (
 
-                            <PeopleCard pic="" linkedin={item.LinkedIn} insta={item.Instagram} fb={item.Instagram} mail={item.GitHub} por="" name={item.Name} />
+                            <PeopleCard pic={process.env.PUBLIC_URL + item.pic} linkedin={item.LinkedIn} insta={item.Instagram} fb={item.Instagram} mail={item.GitHub} por="" name={item.Name} />
                         ))}
                         {/* <div></div> */}
 

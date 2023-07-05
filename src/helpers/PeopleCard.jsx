@@ -33,7 +33,7 @@ const PeopleCard = (props) => {
 
                     </div>
                     <div className='image-box'>
-                        <img className='imagy' alt='profile' src={props.pic ? props.pic : "/images/Demo.png"} />
+                        <img loading="lazy" className='imagy' alt='profile' src={props.pic ? props.pic : "/images/Demo.png"} />
                     </div>
 
                 </div>
