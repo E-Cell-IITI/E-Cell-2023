@@ -1,21 +1,24 @@
 import React from 'react'
-import img1 from '../images/ipl/ipl.webp'
-import img2 from '../images/ipl/ss1.webp'
-import img3 from '../images/ipl/viacom.png'
+import img1 from '../images/ipl/sv.png'
+import img2 from '../images/ipl/tata.png'
+import img3 from '../images/ipl/ceat.png'
+import img4 from '../images/ipl/rcb.png'
+import img5 from '../images/ipl/csk.png'
 import {Link} from 'react-router-dom'
+import "../css/Blogs.css"
 export default function BlogsPage5() {
   return (
     <div>
       <>
             <div className="bg-gray-900 py-12 px-36 lg:py-20">
-            <Link to= "/back" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2" >&larr; Home</Link>
+            <Link to= "/back" ><button>Home</button></Link>
                 <div className="py-8">
                     <h1 className="text-white text-6xl text-center font-bold pb-12">IPL-Case Study</h1>
                     <p className="text-right italic">Published on 30 May 2023</p>
                 </div>
                 
                 <div className="lg:flex lg:flex-row-reverse w-full">
-                <div className="w-full lg:w-2/6 lg:px-16">
+                <div className="w-full lg:w-2/6 lg:px-8">
                         <img src={img1} className="w-full py-24 md:py-32"></img>
                     </div>
                     <div className="lg:w-3/5 pb-12 text-2xl pb-8">
@@ -30,8 +33,9 @@ export default function BlogsPage5() {
                         <img src={img2} className="w-full"></img>
                     </div>
                 <div className="lg:w-3/5 text-2xl pb-8">
-                <h1 className="text-white text-4xl font-bold pb-12">Business Model</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, inventore maiores praesentium eius pariatur et blanditiis amet laboriosam voluptas tempora sint recusandae fugit odio quasi. Maiores eaque eveniet sunt accusamus!</p>
+                
+                <p>The deals combined were sold for a record $6.02 billion, much more than the previous five-year deal of $2.4 billion won by Star India. Viacom18 also won the non-exclusive Package-C for Rs 2,991 crore, while along with Times Internet, Viacom18 also won overseas TV and digital rights for Rs 1,324 crore.</p><p>
+The Title Sponsorship deal was won by TATA at a whopping amount of Rs 670 Crores for two years.</p>
                              
                         
                     
@@ -39,36 +43,29 @@ export default function BlogsPage5() {
 
                 </div>
                 <div className="lg:flex lg:flex-row-reverse w-full">
-                <div className="w-full lg:w-2/3 lg:px-16">
+                <div className="w-full lg:w-2/3 lg:px-20">
                         <img src={img3} className="w-full py-24 md:py-32"></img>
                     </div>
                     <div className="lg:w-3/5 pb-12 text-2xl pb-8">
-                    <h1 className="text-white text-4xl font-bold pb-4">Revenue</h1>
-                    <ul className ="text-white list-disc">
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi cumque fugiat.</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus nostrum hic.</li>
-                        </ul>
-                    <h1 className="text-white text-4xl font-bold pb-4">Growth</h1>
-                    <ul className ="text-white list-disc">
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi cumque fugiat.</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus nostrum hic.</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus nostrum hic.</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus nostrum hic.</li>
-                        </ul>
                     
+                    <p>The Official Sponsors of the league( Dream 11, CRED, up, RuPay, Saudi Tourism Authority, Swiggy Instamart, Upstox) also gave an amount of 210 Crores to the BCCI. The deal for the umpire sponsors was sold to PayTM at Rs 28 Crores The deal of strategic timeout sponsor was given to CEAT at a price of 30 Crores The starting price of online tickets range from Rs 500 to Rs 2,100, the end price can go up to Rs 30,000.</p>
                     </div>
                 </div>
-                <div className="pb-12 text-2xl pb-8">
-                    <h1 className="text-white text-4xl font-bold pb-4">Advertising Strategy</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Iure dicta sequi quis beatae obcaecati. Ea quaerat labore 
-                            accusantium beatae voluptatum, voluptate temporibus porro 
-                            iusto accusamus libero, nam maxime optio alias. Lorem ipsum 
-                            dolor sit amet consectetur adipisicing elit. Earum, amet.
-                             Officia vero nihil, itaque, officiis ratione possimus alias 
-                             vitae nam sed quisquam id maiores, dolorum quod unde eos 
-                             repudiandae similique.</p>
+                <div className="lg:flex w-full">
+                <div className="lg:w-2/6 flex-column justify-center items-center m-auto">
+                        <img src={img4} className="object-cover h-56"></img>
+                    </div>
+                    <div className="lg:w-2/6 flex-column justify-center items-center m-auto">
+                        <img src={img5} className="object-cover h-56"></img>
+                    </div>
+                <div className="lg:w-3/5 text-2xl pb-8">
+                
+                <p>According to some source-based reports, Viacom18 has targeted ad revenue of Rs 3,700 crore from IPL 2023. The BCCI on an average has earned ₹107.5 crore per game from the television and digital avenue in the Indian subcontinent. Thus it is a money money deal for vivo Camera & the s&Mooir
+BCCI</p>
+                             
+                        
                     
+                    </div>
                     </div>
                 
             </div>

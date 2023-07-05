@@ -3,13 +3,14 @@ import img1 from '../images/amul/tkp.png'
 import img2 from '../images/amul/amul.png'
 import img3 from '../images/amul/rev.jpg'
 import {Link} from 'react-router-dom'
+import "../css/Blogs.css"
 export default function BlogsPage2() {
   return (
     <div>
       <>
             <div className="bg-gray-900 py-12 px-36 lg:py-20">
-            <Link to= "/back" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2" >&larr; Home</Link>
-                <div className="py-8">
+            <Link to= "/back"  ><button>Home</button></Link>                
+            <div className="py-8">
                     <h1 className="text-white text-6xl text-center font-bold pb-12">Amul-Case Study</h1>
                     <p className="text-right italic">Published on 1 June 2023</p>
                 </div>

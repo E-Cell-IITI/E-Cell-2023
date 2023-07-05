@@ -2,12 +2,13 @@ import React from 'react'
 import img1 from '../images/skyroot/sky_origin-rbg.png'
 import img2 from '../images/skyroot/Skyroot_New_Logo.jpg'
 import {Link} from 'react-router-dom'
+import "../css/Blogs.css"
 export default function BlogsPage4() {
   return (
     <div>
       <>
             <div className="bg-gray-900 py-12 px-36 lg:py-20">
-            <Link to= "/back" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2" >&larr; Home</Link>
+            <Link to= "/back"  ><button>Home</button></Link>
                 <div className="py-8">
                     <h1 className="text-white text-6xl text-center font-bold pb-12">Skyroot - Case Study</h1>
                     <p className="text-right italic">Published on 11 June 2023</p>
