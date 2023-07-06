@@ -48,9 +48,9 @@ const Team = () => {
                     <div className=' grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12 py-5 px-12 md:px-2 lg:px-6'>
                         {/* <div></div> */}
 
-                        {TeamsData['Team Leaders'].map((item, i) => (
+                        {TeamsData.Team_Leaders.map((item, i) => (
 
-                            <PeopleCard pic="" linkedin={item.LinkedIn} insta={item.Instagram} fb={item.Instagram} mail={item.GitHub} por={item.Position} name={item.Name} />
+                            <PeopleCard pic={process.env.PUBLIC_URL + item.pic} linkedin={item.LinkedIn} insta={item.Instagram} fb={item.Instagram} mail={item.GitHub} por={item.Position} name={item.Name} />
                         ))}                        {/* <div></div> */}
 
                     </div>
@@ -105,7 +105,7 @@ const Team = () => {
 
                         {TeamsData.Creatives.map((item, i) => (
 
-                            <PeopleCard pic="" linkedin={item.LinkedIn} insta={item.Instagram} fb={item.Instagram} mail={item.GitHub} por="" name={item.Name} />
+                            <PeopleCard pic={process.env.PUBLIC_URL + item.pic} linkedin={item.LinkedIn} insta={item.Instagram} fb={item.Instagram} mail={item.GitHub} por="" name={item.Name} />
                         ))}
                         {/* <div></div> */}
 

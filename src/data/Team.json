@@ -1,14 +1,14 @@
 {
     "Professors": [],
     "Overall Coordinators": [],
-    "Team Leaders": [
+    "Team_Leaders": [
         {
             "Name": "Pranjal Jaiswal",
             "Position": "Video Production Head",
             "Instagram": "https://instagram.com/pranjal._.jaiswal?igshid=MjEwN2IyYWYwYw==",
             "LinkedIn": "https://www.linkedin.com/in/pranjal-jaiswal-37a12a201",
             "GitHub": "https://github.com/PranjalJaiswal-IITI",
-            "pic": ""
+            "pic": "images/Video_Production_Creative/Pranjal_Jaiswal.jpeg"
         },
         {
             "Name": "Vyankatesh Chavan ",
@@ -16,7 +16,7 @@
             "Instagram": "https://instagram.com/vyankatesh_chavan_?igshid=NGExMmI2YTkyZg==",
             "LinkedIn": "https://www.linkedin.com/in/vyankatesh-chavan-bbb383230",
             "GitHub": "https://github.com/ojomg",
-            "pic": ""
+            "pic": "images/Video_Production_Creative/IMG_20230507_171027 - Vyankatesh Chavan.jpeg"
         },
         {
             "Name": "Nivedita",
@@ -24,7 +24,7 @@
             "Instagram": "https://www.instagram.com/nive_jha/",
             "LinkedIn": "https://www.linkedin.com/in/nivedita-376271227/",
             "GitHub": "https://github.com/Nivedita123455",
-            "pic": ""
+            "pic": "images/Content/me - Nivedita Iiti.jpg"
         },
         {
             "Name": "Chirag Gour",
@@ -32,7 +32,7 @@
             "Instagram": "https://instagram.com/_chirag__17?igshid=NGExMmI2YTkyZg==",
             "LinkedIn": "https://www.linkedin.com/in/chirag-gour-a58941232",
             "GitHub": "https://github.com/devanshi00",
-            "pic": ""
+            "pic": "images/Outreach/Chirag_Gour.jpeg"
         }
     ],
     "Marketing": [
@@ -382,7 +382,15 @@
             "Instagram": "https://www.instagram.com/itzz_gtg/",
             "LinkedIn": "https://www.linkedin.com/in/garima-upadhyay-783450262",
             "GitHub": "https://github.com/GTG-hub",
-            "pic": ""
+            "pic": "images/Technicals/Garima_Upadhyay.jpeg"
+        },
+        {
+            "Name": "Shashant Kumar ",
+            "Position": "Core Member",
+            "Instagram": "https://www.instagram.com/shashantsah/",
+            "LinkedIn": "https://www.linkedin.com/in/shashantkumar/",
+            "GitHub": "https://github.com/shashantsah",
+            "pic": "images/Technicals/Shashant_Kumar.jpg"
         },
         {
             "Name": "Devanshi Chhatbar",
@@ -390,23 +398,7 @@
             "Instagram": "https://www.instagram.com/devanshi._.005/",
             "LinkedIn": "https://www.linkedin.com/in/devanshi-chhatbar-07531825a/",
             "GitHub": "https://github.com/devanshi00",
-            "pic": ""
-        },
-        {
-            "Name": "Atharva Navarkar ",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/atharvanavarkar2004?igshid=MzNlNGNkZWQ4Mg==",
-            "LinkedIn": "https://www.linkedin.com/in/atharva-navarkar-550b5b256",
-            "GitHub": "https://github.com/atharvanavarkar",
-            "pic": ""
-        },
-        {
-            "Name": "Pratham Gupta ",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/pratham71003?igshid=NGExMmI2YTkyZg==",
-            "LinkedIn": "https://www.linkedin.com/in/pratham-gupta-9231a224b",
-            "GitHub": "https://github.com/cse1060",
-            "pic": ""
+            "pic": "images/Technicals/Devanshi.jpeg"
         },
         {
             "Name": "Ajay choudhary ",
@@ -414,8 +406,25 @@
             "Instagram": "https://www.instagram.com/_ajay_1310/",
             "LinkedIn": "https://www.linkedin.com/in/ajay-choudhary-0401aa22b/",
             "GitHub": "https://github.com/AJAYrocks13",
-            "pic": ""
+            "pic": "images/Technicals/Ajay_Choudhary.jpeg"
         },
+        {
+            "Name": "Atharva Navarkar ",
+            "Position": "Core Member",
+            "Instagram": "https://instagram.com/atharvanavarkar2004?igshid=MzNlNGNkZWQ4Mg==",
+            "LinkedIn": "https://www.linkedin.com/in/atharva-navarkar-550b5b256",
+            "GitHub": "https://github.com/atharvanavarkar",
+            "pic": "images/Technicals/NavarKar_Atharva.jpeg"
+        },
+        {
+            "Name": "Pratham Gupta ",
+            "Position": "Core Member",
+            "Instagram": "https://instagram.com/pratham71003?igshid=NGExMmI2YTkyZg==",
+            "LinkedIn": "https://www.linkedin.com/in/pratham-gupta-9231a224b",
+            "GitHub": "https://github.com/cse1060",
+            "pic": "images/Technicals/Pratham_Gupta.jpeg"
+        },
+        
         {
             "Name": "Harsh Soni ",
             "Position": "Core Member",
@@ -424,6 +433,7 @@
             "GitHub": "https://github.com/SoniHarsh1",
             "pic": ""
         }
+       
     ],
     "Creatives": [
         {
@@ -432,7 +442,7 @@
             "Instagram": "https://instagram.com/vyankatesh_chavan_?igshid=NGExMmI2YTkyZg==",
             "LinkedIn": "https://www.linkedin.com/in/vyankatesh-chavan-bbb383230",
             "GitHub": "https://github.com/ojomg",
-            "pic": ""
+            "pic": "images/Video_Production_Creative/IMG_20230507_171027 - Vyankatesh Chavan.jpeg"
         },
         {
             "Name": "Tejas Chaudhari",
@@ -440,7 +450,7 @@
             "Instagram": "https://instagram.com/tejas.chaudhari22?igshid=MzNlNGNkZWQ4Mg===",
             "LinkedIn": "https://www.linkedin.com/in/tejas-chaudhari-650543250/",
             "GitHub": "https://github.com/tejasopp",
-            "pic": ""
+            "pic": "images/Video_Production_Creative/WhatsApp Image 2023-06-03 at 13.27.05 - Tejas Anil.jpg"
         },
         {
             "Name": "Yash Yewale  ",
@@ -448,7 +458,7 @@
             "Instagram": "https://instagram.com/yash_yewale163?igshid=OTk0YzhjMDVlZA==",
             "LinkedIn": "https://www.linkedin.com/in/yash-yewale-29a453256",
             "GitHub": "https://github.com/yashy-163",
-            "pic": ""
+            "pic": "images/Video_Production_Creative/IMG_20230608_221535 - Yash Yewale.jpeg"
         }
     ],
     "Video-Production": [
@@ -461,12 +471,12 @@
             "pic": ""
         },
         {
-            "Name": "",
-            "Position": "",
+            "Name": "Sahil Umale ",
+            "Position": "Core Member",
             "Instagram": "",
-            "LinkedIn": "",
+            "LinkedIn": "https://www.linkedin.com/in/sahil-umale-03333025b",
             "GitHub": "",
-            "pic": ""
+            "pic": "images/Video_Production_Creative/sahil_Umale.jpeg"
         }
     ],
     "Content_and_social_media": [
