@@ -2,7 +2,7 @@
     "links": [
         {
             "title": "HOME",
-            "link": "home"
+            "link": "/"
         },
         {
             "title": "ABOUT",
@@ -26,6 +26,18 @@
         {
             "title": "BLOGS",
             "link": "blogs"
+        },
+        {
+            "title": "CONTACT",
+            "link": "contact"
+        }
+    
+    ],
+
+    "TeamLinks": [
+        {
+            "title": "HOME",
+            "link": "/"
         },
         {
             "title": "CONTACT",

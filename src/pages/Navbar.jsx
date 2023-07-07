@@ -1,10 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState} from "react";
 import "../css/Navbar.css";
 import { Link } from "react-scroll";
+import { useLocation } from "react-router-dom";
 export default function Header(props) {
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
   }
+
+  const location = useLocation();
+  const currentPath = location.pathname;
 
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
@@ -18,8 +22,20 @@ export default function Header(props) {
   window.addEventListener("scroll", changeBackground);
 
   const [colorChange, setColorchange] = useState(false);
+  const [textColor, setTextColor] = useState(false);
+
+  useEffect(()=>{
+    if(currentPath=='/team' || currentPath=='/gallery'){
+      setColorchange(true);
+    }
+  },[])
+
+  
   const changeNavbarColor = () => {
-    if (window.scrollY >= 200) {
+    if(currentPath=='/team' || currentPath=='/gallery'){
+      setColorchange(true);
+    }
+    else if (window.scrollY >= 200) {
       setColorchange(true);
     } else {
       setColorchange(false);
@@ -27,11 +43,13 @@ export default function Header(props) {
   };
   window.addEventListener("scroll", changeNavbarColor);
 
+
+
   return (
     <div
       className={classNames(
-        "nav flex fixed items-center justify-between py-2 bg-transparent top-0 z-50 w-full px-8 lg:px-16 right-0 left-0",
-        colorChange ? "bg-white" : "bg-transparent"
+        "nav flex fixed items-center justify-between py-1 bg-transparent top-0 z-50 w-full px-8 lg:px-16 right-0 left-0",
+        colorChange ? "bg-white opacity-75" : "bg-transparent"
       )}
     >
       <img
@@ -95,12 +113,13 @@ export default function Header(props) {
         </section>
 
         <ul className="DESKTOP-MENU hidden space-x-12 lg:flex text-white">
+
           {props.links.map((val, index) => (
             <li
               className="text-xl font-semibold text-stone-950 desktop"
               key={index}
             >
-              {val.title === "TEAM" || val.title === "GALLERY" ? (
+              {val.title === "TEAM" || val.title === "GALLERY" || val.title==="HOME"? (
                 <a href={val.link}>{val.title}</a>
               ) : (
                 <Link

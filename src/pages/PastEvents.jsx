@@ -85,7 +85,7 @@ export default function Gallery() {
                     <button onClick={display_info}>Know More...</button>
                   </div> 
                   {show ? <div className='img_heading rounded-3xl'>
-                  <h1 className="xl:text-3xl lg:text-2xl text-2xl  ">{info.heading}</h1>
+                  <h1 className="xl:text-3xl lg:text-2xl text-2xl py-4">{info.heading}</h1>
                   </div> : null}
                   <img src={process.env.PUBLIC_URL + info.image_url} alt="images" className='gallery_img active_slide sm:w-full xl:h-[400px] lg:h-[350px] object-cover rounded-3xl h-[300px]' /></> :  <img src={process.env.PUBLIC_URL + info.image_url} alt="images" className='gallery_img w-full xl:h-[400px] lg:h-[300px] object-cover rounded-3xl h-[300px]'/>
                   

@@ -21,7 +21,7 @@ export default function Homepage(){
     
     return(
         <>
-        <Navbar {...NavbarData}/>
+        {/* <Navbar {...NavbarData}/> */}
         <Banner {...BannerData}/>
         <About {...AboutData}/>
         <Initiatives/>
