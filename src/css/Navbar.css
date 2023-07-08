@@ -364,7 +364,7 @@ li{
 }
 
 .desktop.active {
-  background-image: linear-gradient(to right, #000, #000 50%, #0060A1 50%);
+  background-image: linear-gradient(to right, #000, #000 45%, #0060A1 50%);
 }
 
 .desktop:before {
@@ -386,6 +386,7 @@ li{
 .desktop:hover {
   background-position: 0;
   cursor: pointer;
+  
 }
 
 .desktop:hover::before {
