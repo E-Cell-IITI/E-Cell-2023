@@ -70,7 +70,7 @@ const gallery_data=
         "id" :9,
         "key" :9,
         "heading" : "Pitching Competition",
-        "image_url" : "/images/Past Events/pitch.png",
+        "image_url" : "/images/Past Events/pitching.JPG",
         "slide_data" : "Marketing has evolved into one of the most crucial pillars for building brands in the past few years. ",
         "disp_data": <><p>Marketing has evolved into one of the most crucial pillars for building brands in the past few years.Disruptive marketing strategies have the potential to completely transform market dynamics.To help our budding entrepreneurs learn exactly that,we will be hosting pitching competitions,that will help students refine their marketing and persuasive skills in the form of a healthy and fun competition.We aim to make a subtle effort to help students learn the importance of belief and trust of an entrepreneur on his product.<br></br>
         Having hosted many pitching competitions in the past editions,this year too,we will be hosting a fun and competitive event with products and pitches of all kinds !

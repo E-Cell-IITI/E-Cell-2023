@@ -39,13 +39,14 @@
   .card-content {
     /* width: 100%; */
     position: absolute;
-    --padding: 1.5rem 0;
+    --padding: 1.5rem 2rem;
     padding: var(--padding);
     background: linear-gradient(
-      hsl(0 0% 0% / 0),
-      hsl(20 0% 0% / 0.3) 20%,
+      hsla(0, 0%, 0%, 0.227),
+      hsla(0, 0%, 0%, 0.5),
       hsl(0 0% 0% / 1)
     );
+    font-size: large;
   }
   
   .card-title {
@@ -116,6 +117,10 @@
     } */
     .card-body{
       height: 39vh;
+    }
+    .card-content{
+      padding: 1.5rem 1rem;
+      font-size: medium;
     }
   }
 

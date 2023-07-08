@@ -8,7 +8,7 @@ export default function BlogsPage() {
   return (
     <>
       <div className="bg-gray-900 py-12 px-36 lg:py-20">
-      <Link to= "/back"  ><button>Home</button></Link>        
+      <Link to= "/"  ><button>Home</button></Link>        
       <div className="py-8">
           <h1 className="text-white text-6xl text-center font-bold pb-12">
             Detangling Mcdonalds...

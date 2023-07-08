@@ -35,7 +35,7 @@ function App(props) {
                
 
                 <div className="flex justify-center items-center w-full lg:px-12">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 px-4 md:px-4 ">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 px-6 md:px-8 ">
                         
                             
 
@@ -49,7 +49,7 @@ function App(props) {
                                 <div className="w-full absolute inset-0 ">
 
 
-                                    <div className="w-full absolute inset-0 flex flex-col items-center justify-center text-center translate-y-[64%] group-hover:translate-y-0 transition-transform ease-in duration-700 group-hover:bg-[#1B2A2C] group-hover:bg-opacity-75">
+                                    <div className="w-full absolute inset-0 flex flex-col items-center justify-center text-center translate-y-[64%] md:translate-y-[66%] group-hover:translate-y-0 transition-transform ease-in duration-700 group-hover:bg-[#1B2A2C] group-hover:bg-opacity-75">
                                         <div className="bg-[#1B2A2C] bg-opacity-75 w-full group-hover:bg-opacity-0 py-7 pb-9">
                                             <h1 className="font-dmserif text-3xl font-bold text-white group-hover:mb-4 ">{val.heading}</h1>
                                         </div>
@@ -82,13 +82,13 @@ function App(props) {
                                 <div className=" h-full lg:h-[75vh]">
                                     <img className="h-full w-full group-hover:bg-opacity-0.1" src={val.img} alt="image" />
                                 </div>
-                                <div className="w-full absolute inset-0">
-                                    <div className="w-full absolute inset-0 flex flex-col items-center justify-center text-center translate-y-[64%] group-hover:translate-y-0 transition-transform ease-in duration-700 group-hover:bg-[#1B2A2C] group-hover:bg-opacity-75">
-                                        <div className="bg-[#1B2A2C] bg-opacity-75 opacity-0 w-full py-4 mb-4 group-hover:bg-opacity-0 group-hover:opacity-100">
-                                            <h1 className="font-dmserif text-6xl font-bold text-white mb-4 group-hover:mb-4 ">E-Summit <span className="text-[#0060a1]">2023</span></h1>
+                                <div className="w-full absolute inset-0 h-full lg:h-[75vh]">
+                                    <div className="w-full absolute inset-0 flex flex-col items-center justify-center text-center translate-y-[64%] group-hover:translate-y-0 md:group-hover:translate-y-0 transition-transform ease-in duration-700 group-hover:bg-[#1B2A2C] group-hover:bg-opacity-75">
+                                        <div className="bg-[#1B2A2C] bg-opacity-75 opacity-0 w-full md:py-4 md:mb-4 group-hover:bg-opacity-0 group-hover:opacity-100">
+                                            <h1 className="font-dmserif text-2xl md:text-6xl font-bold text-white mb-4 group-hover:mb-0 md:group-hover-mb-4 ">E-Summit <span className="text-[#0060a1]">2023</span></h1>
                                         </div>
                                         <div className="h-30vh">
-                                        <p className="text-lg italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">{val.content}</p>
+                                        <p className="text-[0.7rem] md:text-lg italic text-white md:mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 mx-6 md:mx-0">{val.content}</p>
                                         </div>
 
                                     </div>
