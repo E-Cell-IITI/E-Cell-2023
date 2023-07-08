@@ -352,13 +352,7 @@ li{
   font-weight: font-semibold;
 }
 .desktop {
-  color: white;
-  background-image: linear-gradient(
-    to right,
-    #0060A1,
-    #0060A1 50%,
-    #000 50%
-  );
+  background-image: linear-gradient(to right, #0060A1, #0060A1 50%, #000 50%);
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
@@ -369,8 +363,12 @@ li{
   transition: all 0.3s ease-in-out;
 }
 
+.desktop.active {
+  background-image: linear-gradient(to right, #000, #000 50%, #0060A1 50%);
+}
+
 .desktop:before {
-  content: '';
+  content: "";
   background: #54b3d6;
   display: block;
   position: absolute;
@@ -381,6 +379,10 @@ li{
   transition: all 0.3s ease-in-out;
 }
 
+.desktop.active:before {
+  background: rgb(16, 113, 223); /* Update the desired text color */
+}
+
 .desktop:hover {
   background-position: 0;
   cursor: pointer;
@@ -389,6 +391,7 @@ li{
 .desktop:hover::before {
   width: 100%;
 }
+
 .mobile {
   background-image: linear-gradient(
     to right,
