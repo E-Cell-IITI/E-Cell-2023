@@ -79,13 +79,13 @@ export default function Header(props) {
       ref={navbarRef}
       className={classNames(
         "nav flex fixed items-center justify-between py-1 bg-transparent top-0 z-50 w-full px-8 lg:px-16 right-0 left-0",
-        colorChange ? "bg-white opacity-75" : "bg-transparent"
+        colorChange ? "bg-white opacity-75 z-50" : "bg-transparent"
       )}
     >
       <img src="./ecell.png" alt="Logo" className="object-contain w-32 mx-6 md:mx-4" />
 
       <nav>
-        <section className="MOBILE-MENU flex lg:hidden">
+        <section className="MOBILE-MENU flex lg:hidden z-50">
           <div
             className="HAMBURGER-ICON space-y-2 z-50 cursor-pointer"
             onClick={() => setIsNavOpen((prev) => !prev)}
@@ -182,6 +182,7 @@ export default function Header(props) {
           top: 0;
           left: 0;
           background: rgb(17 24 39);
+          opacity: 100;
           z-index: 10;
           display: flex;
           flex-direction: column;

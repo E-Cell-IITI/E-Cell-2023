@@ -1,22 +1,39 @@
 {
     "Professors": [],
-    "Overall Coordinators": [],
-    "Team_Leaders": [
+    "Overall_Coordinators": [
         {
-            "Name": "Pranjal Jaiswal",
-            "Position": "Video Production Head",
-            "Instagram": "https://instagram.com/pranjal._.jaiswal?igshid=MjEwN2IyYWYwYw==",
-            "LinkedIn": "https://www.linkedin.com/in/pranjal-jaiswal-37a12a201",
-            "GitHub": "https://github.com/PranjalJaiswal-IITI",
-            "pic": "images/Video_Production_Creative/Pranjal_Jaiswal.jpeg"
+            "Name": "Khushi Sawla",
+            "Position": "Head",
+            "Instagram": "https://instagram.com/khushiisawlaa?igshid=OGQ5ZDc2ODk2ZA==",
+            "LinkedIn": "https://www.linkedin.com/in/khushi-sawla-303458222",
+            "GitHub": "https://github.com/khushisawla",
+            "pic": "images/Team/khushi_sawla.png"
         },
         {
-            "Name": "Vyankatesh Chavan ",
-            "Position": "Design Team Head ",
-            "Instagram": "https://instagram.com/vyankatesh_chavan_?igshid=NGExMmI2YTkyZg==",
-            "LinkedIn": "https://www.linkedin.com/in/vyankatesh-chavan-bbb383230",
-            "GitHub": "https://github.com/ojomg",
-            "pic": "images/Video_Production_Creative/IMG_20230507_171027 - Vyankatesh Chavan.jpeg"
+            "Name": "Ayush Shukla",
+            "Position": "Co-Head",
+            "Instagram": "https://www.instagram.com/ayush_s746/",
+            "LinkedIn": "https://www.linkedin.com/in/ayush-shukla-iiti5011/",
+            "GitHub": "https://github.com/Ayush746",
+            "pic": "images/Team/photo - Ayush_Shukla.jpeg"
+        }
+    ],
+    "Team_Leaders": [
+        {
+            "Name": "Manya Rajib Jain",
+            "Position": "Marketing Team Head",
+            "Instagram": "https://instagram.com/manyarajib?igshid=MzRlODBiNWFlZA==",
+            "LinkedIn": "https://www.linkedin.com/in/manya-rajib-jain-7a972a22b",
+            "GitHub": "#",
+            "pic": "images/marketing/Manya_Rajib_Jain.png"
+        },
+        {
+            "Name": "Chirag Gour",
+            "Position": "Outreach Team Head",
+            "Instagram": "https://instagram.com/_chirag__17?igshid=NGExMmI2YTkyZg==",
+            "LinkedIn": "https://www.linkedin.com/in/chirag-gour-a58941232",
+            "GitHub": "https://github.com/devanshi00",
+            "pic": "images/Outreach/Chirag_Gour.jpeg"
         },
         {
             "Name": "Nivedita",
@@ -27,12 +44,36 @@
             "pic": "images/Content/me - Nivedita Iiti.jpg"
         },
         {
-            "Name": "Chirag Gour",
-            "Position": "Outreach Team Head",
-            "Instagram": "https://instagram.com/_chirag__17?igshid=NGExMmI2YTkyZg==",
-            "LinkedIn": "https://www.linkedin.com/in/chirag-gour-a58941232",
-            "GitHub": "https://github.com/devanshi00",
-            "pic": "images/Outreach/Chirag_Gour.jpeg"
+            "Name": "Vyankatesh Chavan ",
+            "Position": "Design Team Head ",
+            "Instagram": "https://instagram.com/vyankatesh_chavan_?igshid=NGExMmI2YTkyZg==",
+            "LinkedIn": "https://www.linkedin.com/in/vyankatesh-chavan-bbb383230",
+            "GitHub": "https://github.com/ojomg",
+            "pic": "images/Video_Production_Creative/IMG_20230507_171027 - Vyankatesh Chavan.jpeg"
+        },
+        {
+            "Name": "Pranjal Jaiswal",
+            "Position": "Video Production Head",
+            "Instagram": "https://instagram.com/pranjal._.jaiswal?igshid=MjEwN2IyYWYwYw==",
+            "LinkedIn": "https://www.linkedin.com/in/pranjal-jaiswal-37a12a201",
+            "GitHub": "https://github.com/PranjalJaiswal-IITI",
+            "pic": "images/Video_Production_Creative/Pranjal_Jaiswal.jpeg"
+        },
+        {
+            "Name": "Aditi Ganvir",
+            "Position": "Technicals Team Head",
+            "Instagram": "https://www.instagram.com/ganviraditi/",
+            "LinkedIn": "https://www.linkedin.com/in/aditi-ganvir-216336232/",
+            "GitHub": "https://github.com/aditiganvir28",
+            "pic": "images/Technicals/Aditi_Ganvir.jpeg"
+        },
+        {
+            "Name": "Ravi Kumar",
+            "Position": "Operation & Logistic Team Head",
+            "Instagram": "https://instagram.com/ravipratap80053?igshid=ZDc4ODBmNjlmNQ==",
+            "LinkedIn": "https://www.linkedin.com/in/ravi-kumar-a7abb6247",
+            "GitHub": "#",
+            "pic": "images/onl/ravi_pratap.jpg"
         }
     ],
     "Marketing": [

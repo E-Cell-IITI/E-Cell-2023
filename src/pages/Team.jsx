@@ -12,10 +12,10 @@ const Team = () => {
         <div className='bg-[#1B262C]'>
 
             <div className='container mx-auto px-5 m-auto'>
-                    <div className={TeamCss.header}>
+                <div className={TeamCss.header}>
 
-                        <h1><span className={TeamCss.text_blue}>Our</span><span className={TeamCss.text_white}> Team</span></h1>
-                    </div>
+                    <h1><span className={TeamCss.text_blue}>Our</span><span className={TeamCss.text_white}> Team</span></h1>
+                </div>
                 <section>
 
                     <div className='grid md:grid-cols-3 gap-10 lg:gap-28 py-5 px-6 lg:px-32' >
@@ -28,17 +28,21 @@ const Team = () => {
                 </section>
                 <section>
 
-                    <div className=' grid grid-cols-1 md:grid-cols-3  lg:gap-10 py-5 px-6 lg:px-32'>
+                    {/* <div className=' grid grid-cols-1 md:grid-cols-3  lg:gap-28 py-5 px-6 lg:px-32'>
                         <div></div>
                         <PeopleCard />
                         <div></div>
 
+                    </div> */}
+                    
+                        {TeamsData.Overall_Coordinators.map((item, i) => (
+                                <div className=' grid grid-cols-1 md:grid-cols-3 lg:gap-28 py-5 px-6 lg:px-32'>
+                                <div></div>
+                            <PeopleCard pic={process.env.PUBLIC_URL + item.pic} linkedin={item.LinkedIn} insta={item.Instagram} fb={item.Instagram} mail={item.GitHub} por={item.Position} name={item.Name} />
+                            <div></div>
                     </div>
-                    <div className=' grid grid-cols-1 md:grid-cols-3 lg:gap-10 py-5 px-6 lg:px-32F'>
-                        <div></div>
-                        <PeopleCard />
-                        <div></div>
-                    </div>
+                        ))}
+                        
                 </section>
                 <section>
                     <h3 className='text-white text-center font-bold pt-10 text-3xl'>Team Leaders</h3>
