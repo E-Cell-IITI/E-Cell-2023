@@ -7,21 +7,21 @@ import "../css/Blogs.css"
 export default function BlogsPage() {
   return (
     <>
-      <div className="bg-gray-900 py-12 px-36 lg:py-20">
+      <div className="bg-gray-900 py-12 px-18 lg:py-20 lg:px-24">
       <Link to= "/"  ><button>Home</button></Link>        
       <div className="py-8">
-          <h1 className="text-white text-6xl text-center font-bold pb-12">
-            Detangling Mcdonalds...
+          <h1 className="text-white text-4xl lg:text-6xl text-center font-bold pb-12">
+            Detangling Mcdonalds
           </h1>
           <p className="text-right italic">Published on 15 May 2023</p>
         </div>
 
-        <div className="lg:flex lg:flex-row-reverse w-full">
-          <div className="w-full lg:w-2/5 lg:px-16">
-            <img src={img1} className="w-full py-24 md:py-32"></img>
+        <div className="md:flex md:flex-row-reverse w-full">
+          <div className="w-full md:w-2/5 lg:px-16">
+            <img src={img1} className="w-full py-28 md:py-32 px-24 sm:px-48 md:px-0"></img>
           </div>
-          <div className="lg:w-3/5 pb-12 text-2xl pb-8">
-            <h1 className="text-white text-4xl font-bold pb-4">History</h1>
+          <div className="md:w-3/5 pb-12 text-l lg:text-xl px-">
+            <h1 className="text-white text-3xl lg:text-4xl font-bold pb-4">History</h1>
             <p>
               Ray Kroc opened his first McDonald's restaurant in Des Plaines,
               Illinois, in 1955. It's one of the world's largest fast-food
@@ -32,10 +32,10 @@ export default function BlogsPage() {
               California. The McDonald brothers started by serving slow-cooked
               barbecue, and the business took off quickly.
             </p>
-            <h1 className="text-white text-4xl font-bold pb-12">
+            <h1 className="text-white text-3xl lg:4xl font-bold pb-12">
               Business Model
             </h1>
-            <ul className="text-white list-disc">
+            <ul className="text-white list-disc px-6 text-l lg:text-xl">
               <li>
                 Leverages fast food to franchisees who lease properties at given
                 McDonald-owned locations and pay a fixed rent for the location.
@@ -52,12 +52,12 @@ export default function BlogsPage() {
             </ul>
           </div>
         </div>
-        <div className="lg:flex w-full">
-          <div className="lg:w-2/5 flex-column justify-center items-center m-auto">
-            <img src={img2} className="w-full"></img>
+        <div className="md:flex w-full">
+          <div className="md:w-2/5 flex-column justify-center items-center m-auto">
+            <img src={img2} className="w-full px-12 sm:px-20 md:px-0"></img>
           </div>
-          <div className="lg:w-3/5 text-2xl pb-8">
-            <h1 className="text-white text-4xl font-bold pb-4">
+          <div className="md:w-3/5 text-l lg:text-xl pb-8">
+            <h1 className="text-white text-3xl lg:text-4xl font-bold pb-4">
               Revenue, Number of Branches
             </h1>
             <p>Number of Restaurants - 38000</p>
@@ -68,7 +68,7 @@ export default function BlogsPage() {
               16% from the company- operated locations further trimmed by the
               operating costs of this unit. IITINDORE
             </p>
-            <h1 className="text-white text-4xl font-bold pb-4">Growth Plan</h1>
+            <h1 className="text-white text-3xl lg:text-4xl font-bold pb-4">Growth Plan</h1>
             <p>
               The Velocity Growth Plan, which was first introduced in 2017, is
               McDonald's customer- centric strategy that focuses on the key
