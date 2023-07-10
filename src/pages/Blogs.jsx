@@ -30,7 +30,7 @@ export default function Blogs(props) {
       modules={[Pagination, Autoplay]}
       loop={true}
       autoplay={{
-        delay: 3000,
+        delay: 2500,
         disableOnInteraction: false,
       }}
       pagination={{clickable: true }}
