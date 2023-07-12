@@ -75,6 +75,17 @@ img {
     overflow: hidden;
 
 }
+@media (max-width: 768px) {
+    .imageContainer {
+        height: 20vh; /* Adjust the height as per your requirement */
+    }
+}
+
+@media (max-width: 480px) {
+    .imageContainer {
+        height: 15vh; /* Adjust the height as per your requirement */
+    }
+}
 
 
 .empty_div {
