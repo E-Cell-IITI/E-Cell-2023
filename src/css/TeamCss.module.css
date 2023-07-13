@@ -209,7 +209,7 @@ p {
 @keyframes animation1 {
     100% {
         opacity: 1;
-        transform: translateX(-99%);
+        transform: translateX(570%);
     }
 }
 
