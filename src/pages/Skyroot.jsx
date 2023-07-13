@@ -7,7 +7,7 @@ export default function BlogsPage4() {
   return (
     <div>
       <>
-            <div className="bg-gray-900 py-12 px-18 lg:py-20 lg:px-24">
+            <div className="bg-gray-900 py-12 px-18 pr-6 pl-6 lg:py-20 lg:px-24">
             <Link to= "/"  ><button>Home</button></Link>
                 <div className="py-8">
                     <h1 className="text-white text-4xl lg:text-6xl text-center font-bold pb-12">Skyroot - Case Study</h1>
@@ -36,14 +36,14 @@ Overall, Skyroot business model is centered around their core strengths of devel
                     <div className="md:w-3/5 pb-12 text-l lg:text-xl">
 
                     <h1 className="text-white text-3xl lg:text-4xl font-bold pb-4">Growth</h1>
-                    <ul className ="text-white list-disc">
+                    <ul className ="text-white list-disc pl-4">
                             <li>Skyroot successfully raised $51M Series B financing round led by GIC, a leading global investment firm.</li>
                             <li>Indian space tech start ups improve as average funding has increased to $17M in 2022 from $0.5M in 2019.</li>
                             <li>India's space industry go from $7billion in 2019 to $50billion in 2024</li>
                             
                         </ul>
                     <h1 className="text-white text-3xl lg:text-4xl font-bold pb-4">Financial Report</h1>
-                    <ul className ="text-white list-disc">
+                    <ul className ="text-white list-disc pl-4">
                             <li>Estimated annual revenue is currently $35.1M per year.</li>
                             <li>Operating revenue is in range of Under INR 1cr for FY ending on 31 March, 2022</li>
                             <li>Estimated revenue per employee is $189,545.</li>

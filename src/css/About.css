@@ -34,7 +34,7 @@
         animation-name: fadeInFromBottom;
     } */
 
-    .aboutSectionVisible .aboutHeading {
+    /* .aboutSectionVisible .aboutHeading {
         animation-duration: 1.5s;
         animation-fill-mode: both;
         animation-name: slideInFromBottom;
@@ -44,7 +44,7 @@
         animation-duration: 1.5s;
         animation-fill-mode: both;  
         animation-name: fadeInFromBottom;
-      }
+      } */
 
       .aboutHeading,
 .aboutContent {

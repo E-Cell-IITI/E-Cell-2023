@@ -30,7 +30,7 @@ function App(props) {
             </div>
 
             <div className="flex flex-col justify-center items-center px-8 pb-20">
-                <h1 className="text-center pt-10 pb-20 md:pb-28 text-6xl font-semibold">Recent <span className="text-[#0060a1]">Events</span></h1>
+                <h1 className="text-center pt-10 pb-20 md:pb-28 text-6xl font-semibold wow animate__animated animate__fadeInUp">Recent <span className="text-[#0060a1]">Events</span></h1>
 
                
 
@@ -41,7 +41,7 @@ function App(props) {
 
                                 
                                 {props.recent.map((val, ind) => (
-                                <div className="group relative items-center justify-center overflow-hidden cursor-pointer rounded-3xl hover:shadow-black/30">
+                                <div className="group relative items-center justify-center overflow-hidden cursor-pointer rounded-3xl hover:shadow-black/30 wow animate__animated animate__fadeInUp">
                                 <div className="h-96 w-full">
                                     <img className="h-full w-full object-cover" src={val.img} alt="img" />
                                 </div>
@@ -73,12 +73,12 @@ function App(props) {
 
 
             <div className="flex flex-col justify-center items-center">
-                <h1 className="text-center py-20 text-6xl font-semibold wow animate__animated animate__fadeInUpBig">UPCOMING <span className="text-[#0060a1]">EVENTS</span></h1>
+                <h1 className="text-center py-20 text-6xl font-semibold wow animate__animated animate__fadeInUp">UPCOMING <span className="text-[#0060a1]">EVENTS</span></h1>
 
                 <div className="w-full">
                     <div className="grid  pb-20 md:pb-32">
                         {props.upcoming.map((val, e) => (
-                            <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30">
+                            <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 wow animate__animated animate__fadeInUp">
                                 <div className=" h-full lg:h-[75vh]">
                                     <img className="h-full w-full group-hover:bg-opacity-0.1" src={val.img} alt="image" />
                                 </div>

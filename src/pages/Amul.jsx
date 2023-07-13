@@ -8,7 +8,7 @@ export default function BlogsPage2() {
   return (
     <div>
       <>
-            <div className="bg-gray-900 py-12 px-18 md:py-20 lg:px-24">
+            <div className="bg-gray-900 py-12 px-18 pr-6 pl-6 md:py-20 lg:px-24">
             <Link to= "/"  ><button>Home</button></Link>                
             <div className="py-8">
                     <h1 className="text-white text-4xl  lg:text-6xl text-center font-bold pb-12">Amul-Case Study</h1>
@@ -46,12 +46,12 @@ Tribhuvandas Kishibhai Patel founded the organization in 1946 and served as its 
                     </div>
                     <div className="md:w-3/5 pb-12 text-l lg:text-xl">
                     <h1 className="text-white text-3xl lg:text-4xl font-bold pb-4">Revenue</h1>
-                    <ul className ="text-white list-disc">
+                    <ul className ="text-white list-disc pl-4">
                             <li>7 billion USD or 55055 crore revenue in 2022</li>
                             <li>Daily Milk Collection 27 million liters</li>
                         </ul>
                     <h1 className="text-white text-3xl lg:text-4xl font-bold pb-4">Growth</h1>
-                    <ul className ="text-white list-disc">
+                    <ul className ="text-white list-disc pl-4">
                             <li>It is important to note that Amul was ranked 18th largest dairy organization of the world</li>
                             <li>In the year 2011 and rising up to its current position as 9th largest dairy organization and targeting to enter top 3 dairy organizations.</li>
                             <li>Amul expects a growth rate of 20% for FY24.</li>

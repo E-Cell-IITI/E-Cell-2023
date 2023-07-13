@@ -10,7 +10,7 @@ export default function BlogsPage3() {
       <>
             
       
-        <div className="bg-gray-900 py-12 px-18 lg:py-20 lg:px-24"> 
+        <div className="bg-gray-900 py-12 px-18 pr-6 pl-6 lg:py-20 lg:px-24"> 
             <Link to= "/"  ><button>Home</button></Link>
                 <div className="py-8">
                     <h1 className="text-white text-4xl lg:text-6xl text-center font-bold pb-12">WallMart - Case Study</h1>
@@ -48,12 +48,12 @@ export default function BlogsPage3() {
                     <div className="md:w-3/5 lg:pb-12 text-l lg:text-xl">
                     
                     <h1 className="text-white text-3xl lg:text-4xl font-bold pb-4">Growth</h1>
-                    <ul className ="text-white list-disc">
+                    <ul className ="text-white list-disc pl-4">
                             <li>WALMART'S REVENUE HAS STEADILY INCREASED OVER TIME. IN THE FISCAL YEAR 2021, WALMART REPORTED TOTAL REVENUE OF APPROXIMATELY $559 BILLION, MAKING IT ONE OF THE WORLD'S LARGEST COMPANIES BY REVENUE</li>
                             <li>WALMART ANNUAL REVENUE FOR 2023 WAS $611.289B, A 6.73% INCREASE FROM 2022</li>
                         </ul>
                     <h1 className="text-white text-3xl lg:text-4xl font-bold pb-4">Financial Report</h1>
-                    <ul className ="text-white list-disc">
+                    <ul className ="text-white list-disc pl-4">
                         <li>WALMART HAS A TOTAL SHAREHOLDER EQUITY OF $79.5B AND TOTAL DEBT OF $41.6B, WHICH BRINGS ITS DEBT- TO-EQUITY RATIO TO 52.4%</li>
                         <li>ITS TOTAL ASSETS AND TOTAL LIABILITIES ARE $245.1B AND $165.6B RESPECTIVELY.</li>
                         <li>WALMART HAS BEEN GROWING EARNINGS AT AN AVERAGE ANNUAL RATE OF 6.4%</li>

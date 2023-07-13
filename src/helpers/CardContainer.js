@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 // import "../css/style.css"
 
 const CardContainer = ({ title, body,imagePath}) => (
-  <div>
+  <div className = "wow animate__animated animate__fadeInUp">
     <h1 className=" text-4xl font-semibold text-center pb-2 px-4 h-[fit-content] md:h-[4vh] text-white">{title}</h1>
   <div className="card">
     <img className="h-96 w-full object-cover rounded-3xl" src={imagePath}></img>

@@ -7,7 +7,7 @@ import "../css/Blogs.css"
 export default function BlogsPage() {
   return (
     <>
-      <div className="bg-gray-900 py-12 px-18 lg:py-20 lg:px-24">
+      <div className="bg-gray-900 py-12 px-18 pr-6 pl-6 lg:py-20 lg:px-24">
       <Link to= "/"  ><button>Home</button></Link>        
       <div className="py-8">
           <h1 className="text-white text-4xl lg:text-6xl text-center font-bold pb-12">
@@ -35,7 +35,7 @@ export default function BlogsPage() {
             <h1 className="text-white text-3xl lg:4xl font-bold pb-12">
               Business Model
             </h1>
-            <ul className="text-white list-disc px-6 text-l lg:text-xl">
+            <ul className="text-white list-disc px-6 text-l lg:text-xl pl-4">
               <li>
                 Leverages fast food to franchisees who lease properties at given
                 McDonald-owned locations and pay a fixed rent for the location.

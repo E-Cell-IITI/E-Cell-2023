@@ -10,7 +10,7 @@ export default function BlogsPage5() {
   return (
     <div>
       <>
-            <div className="bg-gray-900 py-12 px-18 lg:py-20 lg:px-24">
+            <div className="bg-gray-900 py-12 px-18 pr-6 pl-6 lg:py-20 lg:px-24">
             <Link to= "/" ><button>Home</button></Link>
                 <div className="py-8">
                     <h1 className="text-white text-4xl lg:text-6xl text-center font-bold pb-12">IPL-Case Study</h1>
