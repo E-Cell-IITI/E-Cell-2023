@@ -78,7 +78,7 @@ export default function Header(props) {
     <div
       ref={navbarRef}
       className={classNames(
-        "nav flex fixed items-center justify-between py-1 bg-transparent top-0 z-50 w-full px-8 lg:px-16 right-0 left-0",
+        "nav flex fixed items-center justify-between py-1 bg-transparent top-0 z-50 w-full px-2 pr-8 lg:px-16 right-0 left-0",
         colorChange ? "bg-white opacity-75 z-50" : "bg-transparent"
       )}
     >

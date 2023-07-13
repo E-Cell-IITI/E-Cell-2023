@@ -20,9 +20,10 @@ const Team = () => {
 
                     <div className='grid md:grid-cols-3 gap-10 lg:gap-28 py-5 px-6 lg:px-32' >
 
-                        <PeopleCard pic="" linkedin="" insta="" fb="" mail="" por="" name="" surname="" />
-                        <PeopleCard />
-                        <PeopleCard />
+                    {TeamsData.Professors.map((item, i) => (
+
+<PeopleCard pic={process.env.PUBLIC_URL + item.pic} linkedin={item.LinkedIn} insta={item.Instagram} fb={item.Instagram} mail={item.GitHub} por={item.Position} name={item.Name} />
+))}
 
                     </div>
                 </section>
@@ -45,7 +46,7 @@ const Team = () => {
                         
                 </section>
                 <section>
-                    <h3 className='text-white text-center font-bold pt-10 text-3xl'>Team Leaders</h3>
+                    <h3 className='text-white text-center font-bold pt-10 text-4xl pb-10'>Team Leaders</h3>
                     <div className=' grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-20 py-5 px-12 md:px-2 lg:px-6'>
                         {/* <div></div> */}
 
@@ -56,7 +57,7 @@ const Team = () => {
 
                     </div>
 
-                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Marketing Team</h3>
+                    <h3 className='text-white text-center font-bold pt-10 text-3xl px-4 pb-10'>Marketing Team</h3>
                     <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
                         {/* <div></div> */}
                         {TeamsData.Marketing.map((item, i) => (
@@ -67,7 +68,7 @@ const Team = () => {
                         {/* <div></div> */}
 
                     </div>
-                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Technical Team</h3>
+                    <h3 className='text-white text-center font-bold pt-10 text-3xl px-4 pb-10'>Technicals Team</h3>
                     <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
                         {/* <div></div> */}
 
@@ -78,7 +79,7 @@ const Team = () => {
                         {/* <div></div> */}
 
                     </div>
-                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Content and social media Team</h3>
+                    <h3 className='text-white text-center font-bold pt-10 text-3xl px-4 pb-10'>Content and social media Team</h3>
                     <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
                         {/* <div></div> */}
 
@@ -89,7 +90,7 @@ const Team = () => {
                         {/* <div></div> */}
 
                     </div>
-                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Outreach Team</h3>
+                    <h3 className='text-white text-center font-bold pt-10 text-3xl px-4 pb-10'>Outreach Team</h3>
                     <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
                         {/* <div></div> */}
 
@@ -100,7 +101,7 @@ const Team = () => {
                         {/* <div></div> */}
 
                     </div>
-                    <h3 className='text-white text-center font-bold pt-10 text-2xl px-4'>Creatives Team</h3>
+                    <h3 className='text-white text-center font-bold pt-10 text-3xl px-4 pb-10'>Creatives Team</h3>
                     <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-14 py-5 px-4'>
                         {/* <div></div> */}
 

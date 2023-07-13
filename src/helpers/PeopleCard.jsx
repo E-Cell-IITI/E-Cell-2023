@@ -1,6 +1,6 @@
 import React from 'react'
 import TeamCss from "../css/TeamCss.module.css"
-import { FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaFacebook, FaInstagram, FaGithubAlt} from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Link } from 'react-router-dom';
 
@@ -17,12 +17,12 @@ const PeopleCard = (props) => {
                         <Link to={props.insta}>
                             <FaInstagram className="text-white text-xl" />
                         </Link>
-                        {/* <Link to={props.fb}>
-                            <FaFacebook className="text-white text-xl" />
-                        </Link>
                         <Link to={props.mail}>
+                            <FaGithubAlt className="text-white text-xl" />
+                        </Link>
+                        {/* <Link to={props.mail}>
                             <SiGmail className="text-white text-xl" />
-                        </Link> */}
+                        </Link>  */}
 
                     </div>
                     <div className='image-box'>

@@ -182,7 +182,7 @@ p {
     align-items: center;
     height: 60%;
     width: 15%;
-    left: 100%;
+    /* left: 100%; */
     opacity: 0;
     justify-content: space-around;
     position: absolute;

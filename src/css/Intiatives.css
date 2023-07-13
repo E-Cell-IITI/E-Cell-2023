@@ -80,7 +80,7 @@
   
   .card:hover .card-content,
   .card:focus-within .card-content {
-    transform: translateY(-80%);
+    transform: translateY(-96%);
     transition-delay: 500ms;
   }
   
