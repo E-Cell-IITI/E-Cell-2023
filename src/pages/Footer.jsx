@@ -1,8 +1,10 @@
 import React from "react";
 import {  FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-scroll';
-
+import { Link as RouterLink, useLocation } from 'react-router-dom';
 export default function Footer(props) {
+  const location = useLocation();
+  const currentPath = location.pathname;
   return (
      <section id="contact">
     <footer className="bg-black py-8 px-12 sm:px-8 lg:px-16 xl:px-20">
@@ -52,16 +54,26 @@ export default function Footer(props) {
           </div>
           <div className="flex flex-col space-y-2 text-white font-mono">
             {props.pages2.map((val, index) => (
-              <Link
-              to={val.title.toLowerCase()}
-              spy={true}
-              smooth={true}
-              offset={-70} // Adjust this offset if necessary
-              duration={500} // Adjust the scrolling duration if necessary
-            >
-              {val.title}
-            </Link>
-            ))}
+              val.title === 'BLOGS' || val.title === 'CONTACT' ? (
+                  <Link
+                    to={val.link}
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                    key={index}
+                  >
+                    {val.title}
+                  </Link>
+                ) : (
+                  <RouterLink
+                    to={val.link}
+                    key={index}
+                  >
+                    {val.title}
+                  </RouterLink>
+                )
+              ))}
           </div>
           <div className="flex flex-col space-y-2">
             <div className="text-white text-lg font-bold">
