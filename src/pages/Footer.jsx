@@ -40,17 +40,28 @@ export default function Footer(props) {
             </div>
           </div>
            <div className="flex flex-col space-y-2 text-white font-mono">
-            {props.pages1.map((val, index) => (
-              <Link
-              to={val.title.toLowerCase()}
-              spy={true}
-              smooth={true}
-              offset={-70} // Adjust this offset if necessary
-              duration={500} // Adjust the scrolling duration if necessary
-            >
-              {val.title}
-            </Link>
-            ))}
+             {props.pages1.map((val, index) => (
+                currentPath === '/team' || currentPath === '/gallery' ? (
+                  <RouterLink
+                    to="/"
+                    key={index}
+                  >
+                    {val.title}
+                  </RouterLink>
+                ) : (
+                  <Link
+                    to={val.title.toLowerCase()}
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                    key={index}
+                  >
+                    {val.title}
+                  </Link>
+                )
+              ))}
+             
           </div>
           <div className="flex flex-col space-y-2 text-white font-mono">
             {props.pages2.map((val, index) => (
