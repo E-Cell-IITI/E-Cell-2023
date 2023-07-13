@@ -5,37 +5,46 @@
     "instagram": "https://www.instagram.com/ecelliitindore/",
     "pages1": [
         {
-            "title": "HOME"
+            "title": "HOME",
+            "link": "/"
         },
         {
-            "title": "ABOUT"
+            "title": "ABOUT",
+            "link": "about"
         },
         {
-            "title": "INITIATIVES"
+            "title": "INITIATIVES",
+            "link": "initiatives"
         },
         {
-            "title": "EVENTS"
+            "title": "EVENTS",
+            "link": "events"
         }
       
     ],
     "pages2": [
        
         {
-            "title": "GALLERY"
+            "title": "GALLERY",
+            "link": "/gallery"
         },
         {
-            "title": "TEAM"
+            "title": "TEAM",
+            "link": "/team"
+
         },
         {
-            "title": "BLOGS"
+            "title": "BLOGS",
+            "link": "blogs"
         },
         {
-            "title": "CONTACT"
+            "title": "CONTACT",
+            "link": "contact"
         }
     
     ],
 
-    
+
     "contact_info":[
         {
             "title": "Address",
@@ -53,3 +62,4 @@
     ],
     "copyright": "E-Cell IIT Indore. All Rights Reserved."
 }
+
