@@ -121,7 +121,7 @@ export default function Header(props) {
                   
                   key={index}
                 >
-                  {val.title === "TEAM" || val.title === "GALLERY" ? (
+                  {val.title === "TEAM" || val.title === "GALLERY" || val.title === "HOME" ? (
                     <a href={val.link} onClick={() => setIsNavOpen((prev) => !prev)}>
                       {val.title}
                     </a>
