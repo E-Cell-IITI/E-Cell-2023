@@ -5,6 +5,9 @@ import { Link as RouterLink, useLocation } from 'react-router-dom';
 export default function Footer(props) {
   const location = useLocation();
   const currentPath = location.pathname;
+  const handPointerStyle = {
+    cursor: 'pointer',
+  };
   return (
      <section id="contact">
     <footer className="bg-black py-8 px-12 sm:px-8 lg:px-16 xl:px-20">
@@ -45,6 +48,7 @@ export default function Footer(props) {
                   <RouterLink
                     to="/"
                     key={index}
+                    style={handPointerStyle}
                   >
                     {val.title}
                   </RouterLink>
@@ -56,6 +60,7 @@ export default function Footer(props) {
                     offset={0}
                     duration={500}
                     key={index}
+                    style={handPointerStyle}
                   >
                     {val.title}
                   </Link>
@@ -73,6 +78,7 @@ export default function Footer(props) {
                     offset={0}
                     duration={500}
                     key={index}
+                    style={handPointerStyle}
                   >
                     {val.title}
                   </Link>
@@ -80,6 +86,7 @@ export default function Footer(props) {
                   <RouterLink
                     to={val.link}
                     key={index}
+                    style={handPointerStyle}
                   >
                     {val.title}
                   </RouterLink>
