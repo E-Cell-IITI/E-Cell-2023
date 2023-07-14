@@ -1,11 +1,13 @@
 import { useEffect, useState, useRef } from "react";
 import "../css/Navbar.css";
-import { Link } from "react-scroll";
+import { Link, useNavigate } from "react-router-dom";
+import { Link as ScrollLink, animateScroll } from "react-scroll";
 import { useLocation } from "react-router-dom";
 
 export default function Header(props) {
   const location = useLocation();
   const currentPath = location.pathname;
+  const navigate = useNavigate();
 
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
@@ -122,11 +124,11 @@ export default function Header(props) {
                   key={index}
                 >
                   {val.title === "TEAM" || val.title === "GALLERY" || val.title === "HOME" ? (
-                    <a href={val.link} onClick={() => setIsNavOpen((prev) => !prev)}>
-                      {val.title}
-                    </a>
+                    <button className="font-semibold"  style={{fontSize: '100', fontWeight: '100', color: '#d8d4d4fc'}} onClick={()=> navigate(val.link)}>
+                    {val.title}
+                  </button>
                   ) : (
-                    <Link
+                    <ScrollLink
                       to={val.link}
                       spy={true}
                       smooth={true}
@@ -135,7 +137,7 @@ export default function Header(props) {
                       onClick={() => setIsNavOpen((prev) => !prev)}
                     >
                       {val.title}
-                    </Link>
+                    </ScrollLink>
                   )}
                 </li>
               ))}
@@ -152,19 +154,23 @@ export default function Header(props) {
               )}
               key={index}
             >
-              {val.title === "TEAM" || val.title === "GALLERY" || val.title === "HOME" ? (
-                <a href={val.link}>{val.title}</a>
-              ) : (
-                <Link
-                  to={val.link}
-                  spy={true}
-                  smooth={true}
-                  offset={-70} // Adjust this offset if necessary
-                  duration={500} // Adjust the scrolling duration if necessary
-                >
-                  {val.title}
-                </Link>
-              )}
+             {val.title === "TEAM" || val.title === "GALLERY" || val.title === "HOME" ? (
+                    <button onClick={()=>navigate(val.link)} 
+                    className="font-semibold text-xl p-0">
+                      {val.title}
+                    </button>
+                  ) : (
+                    <ScrollLink
+                    to={val.link}
+                    spy={true}
+                    smooth={true}
+                    offset={-70} // Adjust this offset if necessary
+                    duration={500} // Adjust the scrolling duration if necessary
+                    onClick={() => setIsNavOpen((prev) => !prev)}
+                  >
+                    {val.title}
+                  </ScrollLink>
+                 )} 
             </li>
           ))}
         </ul>

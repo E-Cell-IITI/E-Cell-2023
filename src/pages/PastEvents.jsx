@@ -14,7 +14,7 @@ import 'swiper/css/autoplay'
 import { EffectCoverflow, Pagination ,Navigation ,Autoplay} from 'swiper';
 
 
-export default function Gallery() {
+export default function PastEvents() {
   const [auto_play ,setautoplay]=useState(true);
   const[visible , setvisibility] = useState("box invis");
   const [show ,set_show] = useState(true);
