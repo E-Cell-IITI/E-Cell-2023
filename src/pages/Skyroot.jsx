@@ -1,9 +1,13 @@
-import React from 'react'
 import img1 from '../images/skyroot/sky_origin-rbg.png'
 import img2 from '../images/skyroot/Skyroot_New_Logo.jpg'
-import {Link} from 'react-router-dom'
+import React, { useEffect} from 'react';
+import { Link, useLocation } from "react-router-dom";
 import "../css/Blogs.css"
 export default function BlogsPage4() {
+    const location = useLocation();
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [location]);
   return (
     <div>
       <>

@@ -1,8 +1,8 @@
 import { useEffect, useState, useRef } from "react";
 import "../css/Navbar.css";
-import { Link, useNavigate } from "react-router-dom";
-import { Link as ScrollLink, animateScroll } from "react-scroll";
+import { useNavigate, Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Header(props) {
   const location = useLocation();
@@ -10,34 +10,16 @@ export default function Header(props) {
   const navigate = useNavigate();
 
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [navbar, setNavbar] = useState(false);
-  const [activeSection, setActiveSection] = useState(null);
-  const[ colorChange,setColorchange]=useState(false)
+  const [colorChange, setColorChange] = useState(false);
   const navbarRef = useRef(null);
-  const sections = ["home", "about", "initiatives", "events", "team", "gallery", "blogs", "contact"];
-
-  const changeBackground = () => {
-    if (window.scrollY >= 1) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
 
   const changeNavbarColor = () => {
     if (window.scrollY >= 200 || currentPath === "/team" || currentPath === "/gallery") {
-      setColorchange(true);
+      setColorChange(true);
     } else {
-      setColorchange(false);
+      setColorChange(false);
     }
   };
-
-  useEffect(() => {
-    window.addEventListener("scroll", changeBackground);
-    return () => {
-      window.removeEventListener("scroll", changeBackground);
-    };
-  }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", changeNavbarColor);
@@ -47,49 +29,51 @@ export default function Header(props) {
   }, []);
 
   useEffect(() => {
-    const handleSectionChange = () => {
-      const scrollPosition = window.scrollY + navbarRef.current.offsetHeight;
-      const windowHeight = window.innerHeight;
-
-      for (let i = 0; i < sections.length; i++) {
-        const section = document.getElementById(sections[i]);
-        if (section) {
-          const { top, bottom } = section.getBoundingClientRect();
-          const sectionTop = top + window.scrollY;
-          const sectionBottom = bottom + window.scrollY;
-
-          if (sectionTop <= scrollPosition && scrollPosition < sectionBottom) {
-            setActiveSection(sections[i]);
-            break;
-          }
-        }
-      }
-    };
-
-    window.addEventListener("scroll", handleSectionChange);
-    return () => {
-      window.removeEventListener("scroll", handleSectionChange);
-    };
-  }, []);
+    if (isNavOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+  }, [isNavOpen]);
 
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
   }
 
+  const navLinks = [
+    { title: "HOME", path: "/" },
+    { title: "ABOUT", path: "/#about" },
+    { title: "INITIATIVES", path: "/#initiatives" },
+    { title: "EVENTS", path: "/#events" },
+    { title: "TEAM", path: "/team" },
+    { title: "GALLERY", path: "/gallery" },
+    { title: "BLOGS", path: "/#blogs" },
+    { title: "CONTACT", path: "/#contact" },
+  ];
+
+  const adjustedNavLinks = currentPath === "/"
+    ? navLinks.map(link => ({
+        ...link,
+        path: link.title === "HOME" ? "/#home" : link.path
+      }))
+    : navLinks;
+
+  const filteredLinks = currentPath === "/" 
+    ? adjustedNavLinks 
+    : adjustedNavLinks.filter(link => link.path === "/" || (currentPath === "/gallery" && link.path === "/team") || (currentPath === "/team" && link.path === "/gallery"));
+
   return (
     <div
       ref={navbarRef}
-      className={classNames(
-        "nav flex fixed items-center justify-between py-1 bg-transparent top-0 z-50 w-full px-2 pr-8 lg:px-16 right-0 left-0",
-        colorChange ? "bg-white opacity-75 z-50" : "bg-transparent"
-      )}
+      className="nav flex fixed items-center justify-between py-1 top-0 z-50 w-full px-2 pr-8 lg:px-16 right-0 left-0"
+      style={{ backgroundColor: colorChange ? "rgba(255, 255, 255, 0.5)" : "transparent" }}
     >
       <img src="./ecell.png" alt="Logo" className="object-contain w-32 mx-6 md:mx-4" />
 
       <nav>
         <section className="MOBILE-MENU flex lg:hidden z-50">
           <div
-            className="HAMBURGER-ICON space-y-2 z-50 cursor-pointer"
+            className={`HAMBURGER-ICON space-y-2 z-50 cursor-pointer ${isNavOpen ? 'hidden' : ''}`}
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
             <span className="block h-0.5 w-8 animate-pulse bg-gray-900"></span>
@@ -99,14 +83,14 @@ export default function Header(props) {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="absolute top-7 right-8 px-8 py-8 cursor-pointer"
+              className="close-icon-container"
               onClick={() => setIsNavOpen(false)}
             >
               <svg
-                className="h-8 w-8 text-gray-900"
+                className="h-8 w-8"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="black"
                 strokeWidth="2"
               >
                 <line x1="18" y1="6" x2="6" y2="18" />
@@ -114,30 +98,20 @@ export default function Header(props) {
               </svg>
             </div>
 
-            <ul className="flex flex-col items-center justify-between min-h-[250px] text-[#0060A1] overflow-y-auto mobile-menu">
-              {props.links.map((val, index) => (
+            <ul className="flex flex-col items-center justify-between min-h-[250px] overflow-y-auto mobile-menu">
+              {filteredLinks.map((val, index) => (
                 <li
-                  className=
-                    "border-b border-slate-100 my-8 uppercase font-semibold text-slate-100 text-lg mobile"
-                    
-                  
+                  className="border-b my-8 uppercase font-semibold text-lg desktop"
                   key={index}
                 >
-                  {val.title === "TEAM" || val.title === "GALLERY" || val.title === "HOME" ? (
-                    <button className="font-semibold"  style={{fontSize: '100', fontWeight: '100', color: '#d8d4d4fc'}} onClick={()=> navigate(val.link)}>
-                    {val.title}
-                  </button>
-                  ) : (
-                    <ScrollLink
-                      to={val.link}
-                      spy={true}
-                      smooth={true}
-                      offset={-70} // Adjust this offset if necessary
-                      duration={500} // Adjust the scrolling duration if necessary
-                      onClick={() => setIsNavOpen((prev) => !prev)}
-                    >
+                  {currentPath === "/" && val.path.startsWith("/#") ? (
+                    <HashLink to={val.path} onClick={() => setIsNavOpen(false)}>
                       {val.title}
-                    </ScrollLink>
+                    </HashLink>
+                  ) : (
+                    <Link to={val.path} onClick={() => setIsNavOpen(false)}>
+                      {val.title}
+                    </Link>
                   )}
                 </li>
               ))}
@@ -145,32 +119,21 @@ export default function Header(props) {
           </div>
         </section>
 
-        <ul className="DESKTOP-MENU hidden space-x-12 lg:flex text-white">
-          {props.links.map((val, index) => (
+        <ul className="DESKTOP-MENU hidden space-x-12 lg:flex ">
+          {filteredLinks.map((val, index) => (
             <li
-              className={classNames(
-                "text-xl font-semibold text-stone-950 desktop",
-                activeSection === val.title.toLowerCase() ? "active" : ""
-              )}
+              className={classNames("text-xl font-semibold text-stone-950 hover:text-blue-600 desktop")}
               key={index}
             >
-             {val.title === "TEAM" || val.title === "GALLERY" || val.title === "HOME" ? (
-                    <button onClick={()=>navigate(val.link)} 
-                    className="font-semibold text-xl p-0">
-                      {val.title}
-                    </button>
-                  ) : (
-                    <ScrollLink
-                    to={val.link}
-                    spy={true}
-                    smooth={true}
-                    offset={-70} // Adjust this offset if necessary
-                    duration={500} // Adjust the scrolling duration if necessary
-                    onClick={() => setIsNavOpen((prev) => !prev)}
-                  >
-                    {val.title}
-                  </ScrollLink>
-                 )} 
+              {currentPath === "/" && val.path.startsWith("/#") ? (
+                <HashLink to={val.path}>
+                  {val.title}
+                </HashLink>
+              ) : (
+                <Link to={val.path}>
+                  {val.title}
+                </Link>
+              )}
             </li>
           ))}
         </ul>
@@ -187,23 +150,23 @@ export default function Header(props) {
           height: 100vh;
           top: 0;
           left: 0;
-          background: rgb(17 24 39);
+          background-color: rgba(255, 255, 255, 0.9);
           opacity: 100;
           z-index: 10;
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
           align-items: center;
-        }
-        .active{
-          transform: scale(1.2); /* Apply scaling effect */
+          color:black;
         }
        
-        
+        .close-icon-container {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          cursor: pointer;
         }
       `}</style>
     </div>
   );
 }
-
-

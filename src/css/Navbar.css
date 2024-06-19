@@ -44,10 +44,7 @@ abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
 }
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
+
 b,
 strong {
   font-weight: bolder;
@@ -69,21 +66,7 @@ sub {
 sup {
   top: -0.5em;
 }
-button
- {
-  font-family: inherit;
-  
-  font-size: 100%;
-  
-  line-height: inherit;
- 
-  color: inherit;
-  
-  margin: 0;
- 
-  padding: 0;
-  
-}
+
 button,
 select {
   text-transform: none;
@@ -350,6 +333,29 @@ video {
 
 li{
   font-weight: font-semibold;
+}
+::-webkit-scrollbar {
+  width: 2mm; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Background of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Round the corners of the scrollbar thumb */
+  border: 2mm solid #484242; /* Add some padding around the thumb */
+}
+
+/* Apply styles to horizontal scrollbar */
+::-webkit-scrollbar-horizontal {
+  height: 2mm; /* Set the height of the horizontal scrollbar */
+}
+
+/* Apply styles to vertical scrollbar */
+::-webkit-scrollbar-vertical {
+  width: 2mm; /* Set the width of the vertical scrollbar */
 }
 .desktop {
   background-image: linear-gradient(to right, #0060A1, #0060A1 50%, #000 50%);

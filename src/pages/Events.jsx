@@ -85,7 +85,7 @@ function App(props) {
                                 <div className="w-full absolute inset-0 h-full lg:h-[75vh]">
                                     <div className="w-full absolute inset-0 flex flex-col items-center justify-center text-center translate-y-[64%] group-hover:translate-y-0 md:group-hover:translate-y-0 transition-transform ease-in duration-700 group-hover:bg-[#1B2A2C] group-hover:bg-opacity-75">
                                         <div className="bg-[#1B2A2C] bg-opacity-75 opacity-0 w-full md:py-4 md:mb-4 group-hover:bg-opacity-0 group-hover:opacity-100">
-                                            <h1 className="font-dmserif text-2xl md:text-6xl font-bold text-white mb-4 group-hover:mb-0 md:group-hover-mb-4 ">E-Summit <span className="text-[#0060a1]">2023</span></h1>
+                                            <h1 className="font-dmserif text-2xl md:text-6xl font-bold text-white mb-4 group-hover:mb-0 md:group-hover-mb-4 ">E-Summit <span className="text-[#0060a1]">2024</span></h1>
                                         </div>
                                         <div className="h-30vh">
                                         <p className="text-[0.7rem] md:text-lg italic text-white md:mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 mx-6 md:mx-0">{val.content}</p>

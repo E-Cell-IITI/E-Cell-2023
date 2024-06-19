@@ -1,10 +1,14 @@
-import React from "react";
 import img1 from "../images/mcd/Ray_Kroc.png";
 import img2 from "../images/mcd/burgers.png";
-import {Link} from 'react-router-dom'
 import "../css/Blogs.css"
+import React, { useEffect} from 'react';
+import { Link, useLocation } from "react-router-dom";
 
 export default function BlogsPage() {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <>
       <div className="bg-gray-900 py-12 px-18 pr-6 pl-6 lg:py-20 lg:px-24">

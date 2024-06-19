@@ -9,7 +9,8 @@ import { Link } from 'react-router-dom'
 
 const Team = () => {
     return (
-        <div className='bg-[#1B262C]'>
+        <div style={{ background: 'linear-gradient(to right, #add8e6, #b0e0e6, #87cefa, #b0c4de)' }}>
+
 
             <div className='container mx-auto px-5 m-auto'>
                 <div className={TeamCss.header}>

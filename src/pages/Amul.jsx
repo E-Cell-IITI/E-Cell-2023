@@ -1,10 +1,14 @@
-import React from 'react'
 import img1 from '../images/amul/tkp.png'
 import img2 from '../images/amul/amul.png'
 import img3 from '../images/amul/rev.jpg'
-import {Link} from 'react-router-dom'
+import React, { useEffect} from 'react';
+import { Link, useLocation } from "react-router-dom";
 import "../css/Blogs.css"
 export default function BlogsPage2() {
+    const location = useLocation();
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [location]);
   return (
     <div>
       <>

@@ -1,10 +1,14 @@
-import React from 'react'
 import img1 from '../images/walmart/sam-walton.webp'
 import img2 from '../images/walmart/low_price.jpg'
 import img3 from '../images/walmart/growth.jpg'
-import { Link } from 'react-router-dom'
+import React, { useEffect} from 'react';
+import { Link, useLocation } from "react-router-dom";
 import "../css/Blogs.css"
 export default function BlogsPage3() {
+    const location = useLocation();
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [location]);
   return (
     <div>
       <>
