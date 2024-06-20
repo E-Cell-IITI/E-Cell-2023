@@ -15,8 +15,8 @@ export default function Footer(props) {
       <footer className="bg-black pb-8 pt-20 px-12 sm:px-8 lg:px-16 xl:px-20 ">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 items-start">
-            <div className="flex flex-col space-y-4">
-              <div className="flex items-center space-x-2">
+            <div className="flex flex-col space-y-4 sm:pl-20">
+              <div className="flex items-center space-x-4 ">
                 <img src={process.env.PUBLIC_URL + "/images/logo_ecell.svg"} alt="Logo" />
                 <div className="flex flex-col space-y-1">
                   <span className="text-[#0060A1] font-bold text-3xl">Ecell</span>
