@@ -296,151 +296,135 @@
         }
     ],
     "Outreach": [
-        {
-            "Name": "Rishit Mehrotra ",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/rishit_mehrotra_?igshid=ZDc4ODBmNjlmNQ==",
-            "LinkedIn": "https://www.linkedin.com/in/rishit-mehrotra-637488250",
-            "GitHub": "github.com/mehrotrarishit",
-            "pic": "images/Outreach/Screenshot_20230607_124520_Gallery - Rishit Mehrotra.jpg"
-        },
-        {
-            "Name": "Lovely ",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/lovely_bhardwaj__?igshid=MzNlNGNkZWQ4Mg== ",
-            "LinkedIn": "https://www.linkedin.com/in/lovely-bhardwaj-89603425b/",
-            "GitHub": "https://github.com/lovelybhardwaj",
-            "pic": "images/Outreach/WhatsApp Image 2023-06-07 at 22.16.03 - Lovely.jpg"
-        },
-        {
-            "Name": "Soham Pandit",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/soham_p11?igshid=NGExMmI2YTkyZg==",
-            "LinkedIn": "https://www.linkedin.com/in/soham-pandit-379b35255",
-            "GitHub": "https://github.com/Scav6411",
-            "pic": "images/Outreach/IMG20230524204627 (2) - Soham Pandit.jpg"
-        },
-        {
-            "Name": "Manaswini",
-            "Position": "Core member",
-            "Instagram": "https://instagram.com/mwini_2703?igshid=MzNlNGNkZWQ4Mg==",
-            "LinkedIn": "https://www.linkedin.com/in/manaswini-jl-b8717425b",
-            "GitHub": "https://github.com/Mwini0-0",
-            "pic": "images/Outreach/20220329_190813 - Manaswini J L.jpg"
-        },
-        {
-            "Name": "Poojashree Mishra ",
-            "Position": "Core member",
-            "Instagram": "https://instagram.com/_poojashree_09?igshid=MzRlODBiNWFlZA==",
-            "LinkedIn": "linkedin.com/in/poojashree-mishra-495002254",
-            "GitHub": "https://github.com/Poojashree27",
-            "pic": "images/Outreach/545C30B5-E3A1-4DDB-9FB0-AD73B9A47CBC - Poojashree Mishra.jpg"
-        },
-        {
-            "Name": "Sanket Panigrahi",
-            "Position": "Core member",
-            "Instagram": "@sanket_panigrahi17",
-            "LinkedIn": "https://www.linkedin.com/in/sanket-panigrahi-59011625b",
-            "GitHub": "https://github.com/Sanket172004",
-            "pic": "images/Outreach/IMG-20221128-WA0028 - Sanket Panigrahi.jpg"
-        },
-        {
-            "Name": "Saikumar",
-            "Position": "Core member",
-            "Instagram": "https://www.instagram.com/saikumarmetre_108",
-            "LinkedIn": "https://www.linkedin.com/in/saikumar-metre-1b4a61213/",
-            "GitHub": "https://github.com/Saikumar-108",
-            "pic": "images/Outreach/20221211_125542 - Saikumar.jpg"
-        },
-        {
-            "Name": "Tanushree Dewangan",
-            "Position": "Core member",
-            "Instagram": "https://www.instagram.com/_https.tanushree_/",
-            "LinkedIn": "linkedin.com/in/tanushree-dewangan-738957250",
-            "GitHub": "https://github.com/Tanushreedew",
-            "pic": "images/Outreach/upload - Tanushree Dewangan.jpg"
-        },
-        {
-            "Name": "LOKERY KIRANMAYI ",
-            "Position": "Core member",
-            "Instagram": "Instagram.com/lokery_kiranmayi",
-            "LinkedIn": "https://www.linkedin.com/in/kiranmayi-lokery-34402725b",
-            "GitHub": "https://github.com/",
-            "pic": "images/Outreach/IMG20230304101345~3 - kiranmayi lokery.jpg"
-        },
-        {
-            "Name": "Vatsalya Singh",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/vatsalya3419?igshid=NGExMmI2YTkyZg==",
-            "LinkedIn": "https://www.linkedin.com/in/vatsalya-singh-08a44225b",
-            "GitHub": "Vatsalya3108",
-            "pic": "images/Outreach/IMG_20230606_091226_461 - Vatsalya Singh.jpg"
-        },
-        {
-            "Name": "Yash Yewale ",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/yash_yewale163?igshid=OTk0YzhjMDVlZA==",
-            "LinkedIn": "https://www.linkedin.com/in/yash-yewale-29a453256",
-            "GitHub": "",
-            "pic": "images/Outreach/IMG_20230608_221535 - Yash Yewale.jpg"
-        },
-        {
-            "Name": "Rachit Agrawal ",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/agrawal_rachit3?igshid=MzNlNGNkZWQ4Mg==",
-            "LinkedIn": "https://www.linkedin.com/in/rachit-agrawal-7276a4231",
-            "GitHub": "https://github.com/rackitupp",
-            "pic": "images/Outreach/IMG_20221130_211511~2 - Rachit Agrawal.jpg"
-        },
-        {
-            "Name": "Pulkit Gupta ",
-            "Position": "Volunteer",
-            "Instagram": "https://instagram.com/pulkit_gupta1401?igshid=NGExMmI2YTkyZg==",
-            "LinkedIn": "https://www.linkedin.com/in/pulkit-gupta-45810825b/",
-            "GitHub": "https://github.com/PULKITMAN",
-            "pic": "images/Outreach/WhatsApp Image 2023-06-10 at 07.24.49 - Pulkit Navnit.jpg"
-        },
-        {
-            "Name": "Satvik Desai",
-            "Position": "Volunteer",
-            "Instagram": "https://www.instagram.com/satvik_3184/",
-            "LinkedIn": "https://www.linkedin.com/in/satvik-desai-b77a2524b/",
-            "GitHub": "https://github.com/SATTU3108",
-            "pic": "images/Outreach/Screenshot 2023-06-26 221214 - Satvik Parag.jpg"
-        },
-        {
-            "Name": "Pooja Patel ",
-            "Position": "Volunteer",
-            "Instagram": "https://instagram.com/ppatel_in07?igshid=ZDc4ODBmNjlmNQ==",
-            "LinkedIn": "https://www.linkedin.com/in/pooja-patel-89351a25a",
-            "GitHub": "https://github.com/protista009",
-            "pic": "images/Outreach/IMG_20230607_192644 - Pooja Patel.jpg"
-        },
-        {
-            "Name": "Madhav Rathore",
-            "Position": "Volunteer",
-            "Instagram": "https://instagram.com/mady._.663?igshid=MjEwN2IyYWYwYw==",
-            "LinkedIn": "https://www.linkedin.com/in/madhav-rathore-8a42bb253",
-            "GitHub": "https://github.com/Madhav1234569",
-            "pic": "images/Outreach/IMG_9216 - Madhav Rathore.jpg"
-        },
-        {
-            "Name": "Himanshu khati ",
-            "Position": "Volunteer",
-            "Instagram": "https://instagram.com/him_army321?igshid=ZDc4ODBmNjlmNQ==",
-            "LinkedIn": "https://www.linkedin.com/in/himanshu-khati-b7061b231",
-            "GitHub": "https://github.com/Hima-101",
-            "pic": "images/Outreach/IMG_20230112_191240 - Himanshu Khati.jpg"
-        },
-        {
-            "Name": "Srishti Dhingra  ",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/srishtidhingraa?igshid=ZDc4ODBmNjlmNQ==",
-            "LinkedIn": "https://www.linkedin.com/in/srishti-dhingra-39ba64227",
-            "GitHub": "https://github.com/Srishti012",
-            "pic": "images/Outreach/Profile Image - Srishti Dhingra (1).jpg"
-        }
-    ],
+    {
+        "Name": "Manan Nigam",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/_manan._.07_/",
+        "LinkedIn": "https://www.linkedin.com/in/manan-nigam-216690297/",
+        "GitHub": "https://github.com/MananNigam",
+        "pic": "images/Outreach/manannigam.jpg"
+    },
+    {
+        "Name": "Lokery Kiranmayi",
+        "Position": "Head",
+        "Instagram": "https://www.instagram.com/?hl=en",
+        "LinkedIn": "https://www.linkedin.com/in/kiranmayi-lokery-812a50297/",
+        "GitHub": "https://github.com/",
+        "pic": "images/Outreach/lokery.jpeg"
+    },
+    {
+        "Name": "Sai Chathura Alam",
+        "Position": "Member",
+        "Instagram": "",
+        "LinkedIn": "linkedin.com/in/sai-chathura-alam-0916b9309",
+        "GitHub": "https://github.com/chathuraHub",
+        "pic": "images/Outreach/alam.jpg"
+    },
+    {
+        "Name": "Abhijeet Parmar",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/abhijeet_parmar_05?igsh=eXptNjZtNGx3YnBk",
+        "LinkedIn": "https://www.linkedin.com/in/abhijeet-parmar-a08696281",
+        "GitHub": "https://github.com/abhijeet201",
+        "pic": "images/Outreach/abhijeet.jpg"
+    },
+    {
+        "Name": "Mahi Shah",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/mahishahhhhh/",
+        "LinkedIn": "https://www.linkedin.com/in/mahi-s-shah",
+        "GitHub": "https://github.com/mahishahh/",
+        "pic": "images/Outreach/mahi.jpg"
+    },
+    {
+        "Name": "Naman Goyal",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/naman_goyal.04/",
+        "LinkedIn": "",
+        "GitHub": "",
+        "pic": "images/Outreach/naman.jpg"
+    },
+    {
+        "Name": "Muhamed Nihal",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/nlk505/",
+        "LinkedIn": "https://www.linkedin.com/in/muhamed-nihal-9a14a9289",
+        "GitHub": "https://github.com/nlk505",
+        "pic": "images/Outreach/MuhamedNihal.jpg"
+    },
+    {
+        "Name": "Manan Nigam",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/_manan._.07_/",
+        "LinkedIn": "https://www.linkedin.com/in/manan-nigam-216690297/",
+        "GitHub": "https://github.com/MananNigam",
+        "pic": "images/Outreach/manannigam.jpg"
+    },
+    {
+        "Name": "Yash Singh",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/singhyashhhhh/",
+        "LinkedIn": "www.linkedin.com/in/singhyashh",
+        "GitHub": "https://github.com/singhyash05",
+        "pic": "images/Outreach/yash2.jpg"
+    },
+    {
+        "Name": "Bhavya Shah",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/bhavya05shah/",
+        "LinkedIn": "https://www.linkedin.com/in/lovely-bhardwaj-89603425b",
+        "GitHub": "https://www.linkedin.com/in/bhavya-shah-33057b2a6/",
+        "pic": "images/Outreach/bhavya.jpg"
+    },
+    {
+        "Name": "Mannan Mahajan",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/mm.mannan/?hl=en",
+        "LinkedIn": "http://www.linkedin.com/in/mannan-mahajan-875aa427b",
+        "GitHub": "",
+        "pic": "images/Outreach/mananmahajan.jpg"
+    },
+    {
+        "Name": "Hardik Bansal",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/hardikbansal93/",
+        "LinkedIn": "",
+        "GitHub": "",
+        "pic": "images/Outreach/hardik2.jpg"
+    },
+    {
+        "Name": "Ansh Kayl",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/ansh_kyal29/",
+        "LinkedIn": "https://www.linkedin.com/in/ansh-kyal-b6950427b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "GitHub": "https://github.com/Anshkyal",
+        "pic": "images/Outreach/kayl.jpg"
+    },
+    {
+        "Name": "Varad Pendse",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/varadpendse/",
+        "LinkedIn": "https://www.linkedin.com/in/varad-s-pendse/",
+        "GitHub": "https://github.com/darKKnight14110",
+        "pic": "images/Outreach/pendse.jpg"
+    },
+    {
+        "Name": "Atharvakant Chandorikar",
+        "Position": "Member",
+        "Instagram": "https://www.instagram.com/atharvakant_?igsh=OG9lbG9kNXMxMTEy",
+        "LinkedIn": "https://www.linkedin.com/in/atharvakant-chandorikar-657313291",
+        "GitHub": "",
+        "pic": "images/Outreach/atharv2.jpg"
+    },
+    {
+        "Name": "Ayush Jindal",
+        "Position": "Team Member",
+        "Instagram": "https://www.instagram.com/_ayush_jindal_15/",
+        "LinkedIn": "https://www.linkedin.com/in/ayush-jindal-24b22b280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "GitHub": "https://github.com/Ayush15Jindal",
+        "pic": "images/Outreach/ayush.jpg"
+    }
+],
     "Technical": [
         {
             "Name": "Vishal Kumar",
