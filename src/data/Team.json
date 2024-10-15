@@ -426,85 +426,73 @@
     }
 ],
     "Technical": [
-        {
-            "Name": "Vishal Kumar",
-            "Position": "Core Member",
-            "Instagram": "https://www.instagram.com/shuffled72/",
-            "LinkedIn": "https://www.linkedin.com/in/vishal-k-26b179231/",
-            "GitHub": "https://github.com/Shuffled720",
-            "pic": "images/Technicals/vis.jpg"
-        },
-        {
-            "Name": "Princy Sondarva",
-            "Position": "Core Member",
-            "Instagram": "/team",
-            "LinkedIn": "https://www.linkedin.com/in/princy-sondarva-6a8b46246/",
-            "GitHub": "https://github.com/2pri8ncy",
-            "pic": "images/Technicals/Princy_Sondarva.JPEG"
-        },
-        {
-            "Name": "Garima upadhyay",
-            "Position": "Core member",
-            "Instagram": "https://www.instagram.com/itzz_gtg/",
-            "LinkedIn": "https://www.linkedin.com/in/garima-upadhyay-783450262",
-            "GitHub": "https://github.com/GTG-hub",
-            "pic": "images/Technicals/Garima_Upadhyay.jpeg"
-        },
-        {
-            "Name": "Prkhar Mishra",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/prkharmishra?igshid=MzNlNGNkZWQ4Mg==",
-            "LinkedIn": "https://www.linkedin.com/in/prkhar-mishra-158a79262",
-            "GitHub": "https://github.com/Prkhar05",
-            "pic": "images/Technicals/prkhar_mishra.jpg"
-        },
-        {
-            "Name": "Shashant Kumar ",
-            "Position": "Core Member",
-            "Instagram": "https://www.instagram.com/shashantsah/",
-            "LinkedIn": "https://www.linkedin.com/in/shashantkumar/",
-            "GitHub": "https://github.com/shashantsah",
-            "pic": "images/Technicals/Shashant_Kumar.jpg"
-        },
-        {
-            "Name": "Harsh Soni ",
-            "Position": "Core Member",
-            "Instagram": "https://www.instagram.com/harsh.soni_1/",
-            "LinkedIn": "https://www.linkedin.com/in/harsh-soni15",
-            "GitHub": "https://github.com/SoniHarsh1",
-            "pic": "images/Technicals/Harsh_Soni.jpeg"
-        },
-        {
-            "Name": "Pratham Gupta ",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/pratham71003?igshid=NGExMmI2YTkyZg==",
-            "LinkedIn": "https://www.linkedin.com/in/pratham-gupta-9231a224b",
-            "GitHub": "https://github.com/cse1060",
-            "pic": "images/Technicals/Pratham_Gupta.jpeg"
-        },
+       
         {
             "Name": "Devanshi Chhatbar",
-            "Position": "Core Member",
+            "Position": "Head",
             "Instagram": "https://www.instagram.com/devanshi._.005/",
             "LinkedIn": "https://www.linkedin.com/in/devanshi-chhatbar-07531825a/",
             "GitHub": "https://github.com/devanshi00",
             "pic": "images/Technicals/DevanshiC.jpg"
         },
         {
-            "Name": "Ajay choudhary ",
-            "Position": "Core Member",
-            "Instagram": "https://www.instagram.com/_ajay_1310/",
-            "LinkedIn": "https://www.linkedin.com/in/ajay-choudhary-0401aa22b/",
-            "GitHub": "https://github.com/AJAYrocks13",
-            "pic": "images/Technicals/Ajay_Choudhary.jpeg"
+            "Name": "Prince Kumar",
+            "Position":"Member",
+            "Instagram": "https://www.instagram.com/prince.__.kumar",
+            "LinkedIn": "https://www.linkedin.com/in/k07prince",
+            "GitHub": "https://github.com/Princekumarofficial",
+            "pic": "images/Technicals/Prince_Kumar.jpg"         
+        },
+        
+        {
+            "Name": "Akshat Sharma",
+            "Position":"Member",
+            "Instagram": "",
+            "LinkedIn": "https://www.linkedin.com/in/vishal-k-26b179231/",
+            "GitHub": "https://github.com/AkshatSharma5",
+            "pic": "images/Technicals/Akshat_Sharma.jpg"         
         },
         {
-            "Name": "Atharva Navarkar ",
-            "Position": "Core Member",
-            "Instagram": "https://instagram.com/atharvanavarkar2004?igshid=MzNlNGNkZWQ4Mg==",
-            "LinkedIn": "https://www.linkedin.com/in/atharva-navarkar-550b5b256",
-            "GitHub": "https://github.com/atharvanavarkar",
-            "pic": "images/Technicals/NavarKar_Atharva.jpeg"
+            "Name": "Prateek Rajput",
+            "Position":"Member",
+            "Instagram": "https://www.instagram.com/prateek.r.rajput/",
+            "LinkedIn": "https://www.linkedin.com/in/prateek-rajput-46b9ba287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "GitHub": "https://github.com/Prateekrajput9",
+            "pic": "images/Technicals/Prateek.jpg"         
+        },
+        
+        {
+            "Name": "Vasudha Waman",
+            "Position":"Member",
+            "Instagram": "https://www.instagram.com/vasudha_waman/",
+            "LinkedIn": "https://www.linkedin.com/in/vasudha-waman-1a3755293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "GitHub": "https://github.com/vasudhawaman",
+            "pic": "/images/Technicals/Vasudha_Suneel.png"          
+        },
+        {
+            "Name": "Jai Pannu",
+            "Position":"Member",
+            "Instagram": "https://www.instagram.com/jaipannu08/",
+            "LinkedIn": "https://www.linkedin.com/in/jaipannu-iiti?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "GitHub": "https://github.com/JaiPannu-IITI",
+            "pic": "/images/Technicals/Jai_Pannu.jpeg"          
+        },
+        {
+            "Name": "Akanksha Prasad",
+            "Position":"Head",
+            "Instagram": "https://www.instagram.com/akanksha_prasad18/",
+            "LinkedIn": "https://www.linkedin.com/in/akanksha-prasad-ab0376250/",
+            "GitHub": "https://github.com/akankshaprasad18",
+            "pic": "images/Technicals/Prasad_Akanksha.jpg"           
+        },
+        
+        {
+            "Name": "Ayush Khadkekar",
+             "Position":"Member",
+            "Instagram": "https://www.instagram.com/ayush_khadkekar?igsh=MTF4ZzN5NmQ5YjVh&utm_source=qr",
+            "LinkedIn": "https://www.instagram.com/ayush_khadkekar?igsh=MTF4ZzN5NmQ5YjVh&utm_source=qr",
+            "GitHub": "https://github.com/ayushkhadkekar3462",
+            "pic": "images/Technicals/Ayush_Khadkekar.jpg"            
         }
         
     ],
