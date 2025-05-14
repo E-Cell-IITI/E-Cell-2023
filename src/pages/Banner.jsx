@@ -23,7 +23,7 @@ export default function Banner(props) {
         <div className="mx-auto max-w-2xl h-[60vh] py-32 sm:py-48 lg:py-56">
           <div className="text-center overflow-hidden">
             <p className="bannerTagline font-['Nunito'] font-bold text-[35px] -tracking-[0.04em] leading-[30px] text-[#1B262C]">
-              Spreading the sprit of Entreprenuership
+              Spreading the Sprit of Entreprenuership
             </p>
             <h1 className="bannerHeading pt-4 font-['Inter'] font-bold text-[45px] md:text-[50px] -tracking-[0.04em] leading-[60px] text-black capitalize">
               Entrepreneurship Cell
